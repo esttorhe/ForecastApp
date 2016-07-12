@@ -1,0 +1,5 @@
+Pods/*
+.bundle
+.vendor
+Build/
+.DS_Store
