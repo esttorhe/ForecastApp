@@ -1,0 +1,16 @@
+source 'https://rubygems.org'
+
+# The Cocoa library package manager.
+gem 'cocoapods', '~> 1.0.1'
+# Label labels the gems in your Gemfile
+gem 'label'
+# CocoaPods Keys will store sensitive data in your Mac's keychain.
+gem 'cocoapods-keys'
+gem 'cocoapods-superdeintegrate'
+# A command-line tool that reorganizes your Xcode project folder to match your Xcode
+# groups
+gem 'synx'
+# xcodebuild formatter done right
+gem 'xcpretty'
+
+# vm:ruby

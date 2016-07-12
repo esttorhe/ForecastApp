@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DayForecastView" customModule="MTTForecast" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfZ-00-WMs">
+                    <rect key="frame" x="282" y="10" width="36" height="17"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Bj-eo-JYJ">
+                    <rect key="frame" x="10" y="47" width="28.5" height="13.5"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5L6-md-lMR">
+                    <rect key="frame" x="10" y="85.5" width="28.5" height="13.5"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="LfZ-00-WMs" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="GN2-l8-WnU"/>
+                <constraint firstItem="7Bj-eo-JYJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="kFn-Zt-NZy"/>
+                <constraint firstItem="5L6-md-lMR" firstAttribute="top" secondItem="7Bj-eo-JYJ" secondAttribute="bottom" constant="25" id="o6M-sw-vHD"/>
+                <constraint firstItem="7Bj-eo-JYJ" firstAttribute="top" secondItem="LfZ-00-WMs" secondAttribute="bottom" constant="20" id="uMv-VA-NFC"/>
+                <constraint firstItem="LfZ-00-WMs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="xDL-eQ-bpe"/>
+                <constraint firstItem="5L6-md-lMR" firstAttribute="leading" secondItem="7Bj-eo-JYJ" secondAttribute="leading" id="yF6-dy-Hrg"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <connections>
+                <outlet property="dateLabel" destination="LfZ-00-WMs" id="M2F-Yf-uOx"/>
+                <outlet property="maxTemperatureLabel" destination="5L6-md-lMR" id="zvL-HT-X3n"/>
+                <outlet property="minTemperatureLabel" destination="7Bj-eo-JYJ" id="04N-tb-M5w"/>
+            </connections>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (3.4.1)
+  - Keys (1.0.0)
+  - ModelMapper (2.1.0)
+  - Moya (6.5.0):
+    - Moya/Core (= 6.5.0)
+  - Moya/Core (6.5.0):
+    - Alamofire (~> 3.0)
+    - Result (~> 2.0)
+  - Result (2.0.0)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - SwiftGen (1.1.2)
+
+DEPENDENCIES:
+  - Keys (from `Pods/CocoaPodsKeys`)
+  - ModelMapper (~> 2.1.0)
+  - Moya (~> 6.5.0)
+  - SDWebImage (~> 3.8.1)
+  - SwiftGen (~> 1.1.2)
+
+EXTERNAL SOURCES:
+  Keys:
+    :path: Pods/CocoaPodsKeys
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Keys: 9c35bf00f612ee1d48556f4a4b9b4551e224e90f
+  ModelMapper: e599744bc1e869bdb87b453b7ce16981028b8513
+  Moya: f7a4044719381cc6299f9ad3e0ef05f426f0557b
+  Result: 9e75e1111c774c6ac594e14907b15057053a7959
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SwiftGen: 18b1421be72f6e565a1844d0fb402825c249859e
+
+PODFILE CHECKSUM: e0eb7e535cbfd108bcff2601288b0d0985126a72
+
+COCOAPODS: 1.0.1

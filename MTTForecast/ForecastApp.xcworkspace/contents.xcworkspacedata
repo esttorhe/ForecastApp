@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:MTTForecast/MTTForecast.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WorldWeather/WorldWeatherAPI/WorldWeatherAPI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WorldWeather/WorldWeatherCore/WorldWeatherCore.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WorldWeather/WorldWeatherMapping/WorldWeatherMapping.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

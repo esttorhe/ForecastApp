@@ -1,0 +1,84 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.3'
+workspace 'ForecastApp'
+use_frameworks!
+
+# This are required because pods are not transitively shared
+def sharedPods
+  pod 'ModelMapper', '~> 2.1.0'
+end
+
+target 'MTTForecast' do
+  project 'MTTForecast/MTTForecast'
+  # Pods required by dependency frameworks
+  sharedPods
+
+  # UI
+  pod 'SDWebImage', '~> 3.8.1'
+
+  # CLI Tools
+  pod 'SwiftGen', '~> 1.1.2'
+  
+  target 'MTTForecastTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
+
+target 'WorldWeatherAPI' do
+  project 'WorldWeather/WorldWeatherAPI/WorldWeatherAPI'
+  
+  # Network
+  pod 'Moya', '~> 6.5.0'
+  
+  target 'WorldWeatherAPITests' do
+    inherit! :search_paths
+    
+    # Pods required by dependency frameworks
+    sharedPods
+  end
+end
+
+target 'WorldWeatherMapping' do
+  project 'WorldWeather/WorldWeatherMapping/WorldWeatherMapping'
+  
+  # Pods required by dependency frameworks
+  sharedPods
+  
+  target 'WorldWeatherMappingTests' do
+    inherit! :search_paths
+  end
+end
+
+target 'WorldWeatherCore' do
+  project 'WorldWeather/WorldWeatherCore/WorldWeatherCore'
+  
+  target 'WorldWeatherCoreTests' do
+    inherit! :search_paths
+  end
+end
+
+# Sometimes CocoaPods causes Xcode to throw an error of the sort
+# «Test target X encountered an error (Early unexpected exit, operation never finished bootstrapping - no restart will be attempted»
+# Adding this flag to the runtime search path seems to fix it
+# based on this StackOverflow question
+# http://stackoverflow.com/questions/34990175/test-target-x-encountered-an-error-early-unexpected-exit-operation-never-finis/36343395#36343395
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['LD_RUNPATH_SEARCH_PATHS'] += ['$(FRAMEWORK_SEARCH_PATHS)']
+    end
+  end
+end
+
+# Plugin used to encrypt sensitive keys and avoid them from
+# ever reaching the repo.
+plugin 'cocoapods-keys', {
+  :project => 'WorldWeatherAPI',
+  :target => 'WorldWeatherAPI',
+  :keys => [
+  'APIKey',
+  ]
+}
+
+# vm: ft=rb

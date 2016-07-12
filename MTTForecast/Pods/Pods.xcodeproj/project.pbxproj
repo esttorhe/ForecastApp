@@ -1,0 +1,2732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045511256E05BFCADCE7201461700393 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C247E053EB0453AC557EB2D25A9E18 /* Image.swift */; };
+		05D8390CE4EBE4F5766CAAAE6CFA29F8 /* Pods-WorldWeatherAPITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F06B0AA6AB8EA0FE2BC2EF4EBF69D06 /* Pods-WorldWeatherAPITests-dummy.m */; };
+		05F386BDC4896411D54D0ABF73472F9C /* NetworkLoggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A24CE69A645DBDA2883324240C40FE /* NetworkLoggerPlugin.swift */; };
+		05F6E7F473CE6531ED3EFB443177CEA9 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 933615888DB510D52960E9F857A9D37D /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C6246305C4385030ADC71963C90569 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5B9C407229AF8343B45A1A2CB285F6 /* Response.swift */; };
+		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC41C84CEA0B3246BF04959F96EBB05 /* Error.swift */; };
+		0D24B49A102E4F859CE6B38D2EBCF030 /* MapperError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47495F40504855594BC1CCB04AA4F642 /* MapperError.swift */; };
+		0EB001BDE9C05F9D7D462992697C52BE /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = EB02337529E076815DDC8DAA036A302F /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11A541AB02CDBFD102E4457DFED1E719 /* Pods-WorldWeatherCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C876E9426B18A2F69BF436C828023EB3 /* Pods-WorldWeatherCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13839EB5CD8E6781B6A662D4B9719E0D /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 888C66D74A575DE7AB0BE82E733A54B2 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15E3DA90C2B6749AF11D3E19ADEF3453 /* Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53D6A1D3C7CB25C0B9B1F93F6D078D /* Moya.swift */; };
+		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB33BC624FDEF7E325A4AEAC478F06C /* Timeline.swift */; };
+		1AF50C3D0B4C30258F353C98CD5F8C84 /* WorldweatherapiKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9AD5411A4D5B122D821D040D83114D /* WorldweatherapiKeys.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1B74B08A3DCE7E5F194DB71F8001CF13 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B97F292D3B1D0C098A39F8E2EED937E5 /* UIButton+WebCache.m */; };
+		20916C4A48C94CB8EAA5ACEE17B37C9F /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCBB6A67E938EDD5F164A272551079 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20DB335D303A37ADA057DC0409914F30 /* Keys-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B920FAEB71BD99AD7798D926A746C2 /* Keys-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2394EF3E010D188A1C89B95CA20A399A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F99259D9DD2CF87E16ECDED178DF648 /* Error.swift */; };
+		2B852FB261D767CDDFAFE5C896636E7C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19932A580EF34CC462B43ECC414F90BC /* Result.swift */; };
+		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4F34FD2622934623BCE7226E0987E /* Validation.swift */; };
+		2D95A7E4BBC80412EA33DA25662461C7 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA50AC1E2D10428BC111DE117AF805D /* SDWebImagePrefetcher.m */; };
+		2E16E1B739AF6134C0D00B67BC032CF6 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666789924EF37E2B2534C838190EBEF /* Mappable.swift */; };
+		2F96E4A3B635A8D04CC181FF9CFA20BE /* ModelMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 108FB47DD0E4A1DA07AE6D89FC8CF3DC /* ModelMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		330DA63F0E04B01965604C367B83627D /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F1842A78EBC1838A768CE29D5DD54B /* UIView+WebCacheOperation.m */; };
+		342252F0F909A401DB6860F816D48409 /* Pods-WorldWeatherCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9016C0AC44A50F14C149D11B476977 /* Pods-WorldWeatherCore-dummy.m */; };
+		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE521372E60D0EF97B52CE96759E816 /* NetworkReachabilityManager.swift */; };
+		3524CC9E5649ED68D224C31048396EC2 /* Keys-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD9E98699F89A849BB62BC7EF9091EE /* Keys-dummy.m */; };
+		36E24D66E97CEB8710324B197F926C0F /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEE733B3DFBB1B4DF5E1A0A5970CA0E /* UIImage+GIF.m */; };
+		37530B533B087E3720518BACCE95D0AD /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4061A3E59ADF607057A9BD4B65C718C2 /* SDWebImageManager.m */; };
+		397DC7B1414A87443EEF7755133E0FAF /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A409A83EB2730A7FA90364B25731A2 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D1E2A344C446B5C598A321B93359B6C /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F783E97CACD30645EBD51FB7B1817DB0 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DF3F026E68BA5D5A440C39FFD96175A /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC0B643FA4000CF5E41B37AFAAB3943 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA863347A0BA2E4FDDB8E0E580CB40F9 /* ResponseSerialization.swift */; };
+		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5695DC05FAE830AFD6795B1174B7E5 /* Manager.swift */; };
+		4307CBAAA98DCDF133C573A823E00126 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC05A2DC488A2DEF94118C40891FEF7D /* Result.framework */; };
+		47734AB44DB3B2E8E662F86076A86FA0 /* Transform+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD43209C46BED728F776BD0A120136 /* Transform+Dictionary.swift */; };
+		4854685DCEE1909F2B311C5AB9CB1888 /* Pods-MTTForecast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D57F45DB8C2838CEDCEBFB0F0464560B /* Pods-MTTForecast-dummy.m */; };
+		4A0015C80C0A757ACB3678DA0AB44D77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */; };
+		4E88047BDAAB0AF049E5682BD3420D91 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = E9402E5EA20C7E5BB3444CFC9B14B59E /* SDWebImageCompat.m */; };
+		4F9982570AF9E3C282E0112443AC9323 /* Pods-WorldWeatherCoreTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3C28619C8E9BDBDE777131DCA033E8 /* Pods-WorldWeatherCoreTests-dummy.m */; };
+		521A9DD6144F8FA57A2BC4C83F9E74B3 /* Pods-MTTForecastTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7994BE07E9C3AE0A0400DD780F492E94 /* Pods-MTTForecastTests-dummy.m */; };
+		56C565B5E600D6F014E7902D68CD2A26 /* Moya+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C997D9934FCE78FF1F06801C971867 /* Moya+Alamofire.swift */; };
+		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5645B57C8CDF3BAEDE554EAD24A57D7D /* Upload.swift */; };
+		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845D1B966CA7446CF597EDA7EC15ED7 /* Download.swift */; };
+		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E829E2CD4C4DDD387FD54EF524016 /* Response.swift */; };
+		63FB8CA3B6B727D362AEEEB1B5A3B74D /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F688A957845196D98030E972801C243 /* SDWebImageDownloaderOperation.m */; };
+		6677CCD1E13B065D7992AF91B0419C02 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E68E6ED7617AE6980A6513D2FD21D40 /* Alamofire.framework */; };
+		6751A6C11AE75944B95C1391DD824049 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AAB3345320415F4D4FBFB42B089512 /* ResultType.swift */; };
+		6A356165B29097800F0D9ADC889927B6 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5BA47FBACE3B8D0700BBD86ACB91C /* UIImageView+HighlightedWebCache.m */; };
+		6CEA127100DCB34BC8FD2531DDE4A015 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BC3112ACD672636DB18FD5DDC7890F /* Transform.swift */; };
+		6F335EFA32497ADFD79C31FEF9CD618C /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = C90BB324EEF8A024620BFE27AADEA90E /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FB2F8BA326DE193632C540941AF6C62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */; };
+		708E837A50D3FE4F89DCB7EC3878A22F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */; };
+		72F2F451801BFFC79B7EB71F0137164B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */; };
+		74C92F2BEFD4453EBD57E8D137FE357E /* Pods-WorldWeatherCoreTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C184CF84610BEB44DC2B011AD07E195 /* Pods-WorldWeatherCoreTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79050954AF64157967AD25123723568F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */; };
+		7B38F90E50D5DEF1BAC364B2B769445B /* Result-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 025901E64207915E00464A06E943C0A4 /* Result-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F52F0E3E56DDF1DC0C964DBBBD963 /* ServerTrustPolicy.swift */; };
+		858749734F379B8F664692EAA76C6614 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */; };
+		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53B4443DA0BAF0A702190A5B3FEEBF6 /* Alamofire.swift */; };
+		8F13B2433CEF0A7EC7A9CB37F65EC2FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */; };
+		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */; };
+		93D9BE0B8CCA2A1D1D5CF747EA90C76D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 704EEFB0CFB686777D4ED50BADB66380 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94A596C3FCB29418BDF607145A0540FB /* WorldweatherapiKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = C58FBF2E802319782EB0CBCC5BCA76FE /* WorldweatherapiKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94CD66A4D98BD7EBD8833B5B213976E7 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C83A7882E6B34AE960F0BF9ECD6BAB /* UIImageView+WebCache.m */; };
+		978D61581AA66F56AB75F2589805DD21 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C048F07FAE80111E86F124B745A96D48 /* SDWebImage-dummy.m */; };
+		9951FDBFBD4184C44B3157E24453AD74 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A39D8ADB2DFF7FD6DB9A21A35E61E322 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BED327A490A3B6E73E80073E0229A3F /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C3F993C59A2F3371CE408D036E46A977 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C2EFAF11BCBB79C721573417ED072ED /* Pods-WorldWeatherMapping-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92562EBB0231B59BB21539C4F4C7C3CB /* Pods-WorldWeatherMapping-dummy.m */; };
+		9F2BE3E9B2EFEF16A74801FBB6DD6E8D /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD5792793E55226D4485C02B4DB41B /* UIImage+MultiFormat.m */; };
+		9F671FDD4C65A3D3852B4C734FCEC80A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */; };
+		A00654B05C39D0CAE923721FB988970C /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6679EE143CD456F17DD9C2199F1B4B /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0968F7DE37E499AC55396FA7DCC560E /* Pods-WorldWeatherAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EBC07F879E5449CCC9F4179B4EDF4C0 /* Pods-WorldWeatherAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D78A1A1EBB5E57930CED20EAFC619E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */; };
+		A5AC2D223A87AAFC4ABA372A2DD902BC /* NetworkActivityPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A05F688FB2EC6AF014C8D990579EAC9 /* NetworkActivityPlugin.swift */; };
+		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF117A088A2203FF9D167E8A7DC2A9D6 /* Result.swift */; };
+		AA571860DBAB98B8FBCBB20D52730E5B /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A3EAD5F61DF880F6E19EEB91061393 /* NSData+ImageContentType.m */; };
+		ACF636AAEF7189C02641E20565349618 /* Moya-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1D3059145F43C381D32028C79D2665 /* Moya-dummy.m */; };
+		ADD3C5510A1D68476F3ADEA60F4EF5B5 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C37CFC1928E8FCD8DAB165B70FBDDF2 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0DC438906A8071C79E74616A116B83 /* Alamofire-dummy.m */; };
+		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F208C52BB751AA6D0A7103BE9BF3C5 /* Stream.swift */; };
+		B3CA6DA56B1E68A0D86822129CB727EE /* Moya-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F1A6C25E8FA896AD3A91286B1309ADB /* Moya-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B63C075ACD572E17680DD0738953AD8B /* Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E2E75A3E73A7E55CCCE6A4115C68FC /* Convertible.swift */; };
+		B82996F95E797F1A8B471174C8CAB2B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */; };
+		BA377AD2623449B0CE84BA4093F4BBB1 /* CredentialsPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F9B30BED72DEA92B61A0F57642F55F /* CredentialsPlugin.swift */; };
+		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086846CE1D76CEC5421C3248EFD36B6 /* Notifications.swift */; };
+		C0B270B42A9C1EA58B7B7BF1465C79F3 /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDDB1BEA616D7F502D295B8A97AC9BA6 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E9683AE1CA505D7A5345D24A4B7AC /* ParameterEncoding.swift */; };
+		C3A39A1A58017B4D8C38D5A443716D47 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF0136625C1F776B35D8D5268E53CA4 /* Endpoint.swift */; };
+		C67B2CB3D71AFA6FE2124A559D943BBF /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE88A6BF5F9CDF648BB6F7EF852EA2D /* SDWebImageDownloader.m */; };
+		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EC74BDFE6471DE07CAC8421B545429 /* MultipartFormData.swift */; };
+		C9B2964BD3A17781600DBE2984E71D3F /* Pods-MTTForecastTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF40A5C8012121B51B099E260914F700 /* Pods-MTTForecastTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEF4C57416C45BFB01E28BC575FB0AC7 /* Pods-WorldWeatherAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC436CDB378EFFCAF98E5256F8E3E4A9 /* Pods-WorldWeatherAPI-dummy.m */; };
+		CEFD17D9BDDAD03A7637F77D2B1207B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */; };
+		D1330F2168707441035B08F1E3371F28 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = A83B284C0481E6F6721F44CD3370978A /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D20FB3B47BB4ED2234FBFBE19A8E6345 /* Pods-WorldWeatherMapping-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9AB98FD85E4ACB8E2AB2B116CE4E35 /* Pods-WorldWeatherMapping-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2AA59649B8C32E7FC4BE128AA97C20C /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = F3743AA41F2F06AE24EB6C1904180D1C /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D334B1A0D3C9EE115BBA350E257C3375 /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF1FDB95DDE42F88A4941E5B2A1723 /* Plugin.swift */; };
+		D449C9D95302F9662CECCB5BC8BF3127 /* Pods-WorldWeatherMappingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6306014DBAA226D8535FAF70D461661A /* Pods-WorldWeatherMappingTests-dummy.m */; };
+		D8261EC35BE852FECF0B03191A20CE04 /* Result-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0205D9AF12ABEBF1B61D7085B50DB8BC /* Result-dummy.m */; };
+		D947CDF7549F7A3EBD860AA36F3C26F8 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EC17B91DD33B1F64DC1FBBF790592573 /* SDImageCache.m */; };
+		DE80ED4D42BC4F394D52C7FC7EDDD92F /* ModelMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA13E0173BDFB5982A0DFBB237D6FE4 /* ModelMapper-dummy.m */; };
+		E20A62330F9259EAFCDCBB862C6275CD /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB0616660F4956D6A674FEE802FD3B8 /* SDWebImageDecoder.m */; };
+		E2AA57DDFF118EA0DBBCAE303130E78F /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC43C96275360CAA97ECFE2BFE9DB716 /* Mapper.swift */; };
+		EB4AF8C5A6037BDF3E3ADFC6A8153165 /* Pods-WorldWeatherMappingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E68FB9B19E9E228D5B03204ABB3FD17D /* Pods-WorldWeatherMappingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC13F6C1F4481E145D167CEFC1551493 /* NSURL+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67547986BFF977F0126C7545B218FE /* NSURL+Convertible.swift */; };
+		EC61CA12C3DD40772111BEF8DB673025 /* Pods-MTTForecast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A11739FB0B46C6144EF6B7F3F2A38E8 /* Pods-MTTForecast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF765B45F9BDF654FA8E25671ADCED83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */; };
+		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A88D6019EC3D628BF438C8B146B51F0 /* Request.swift */; };
+		F5EE90B4C0429BFB8D25C19B710902B1 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 265D4AD9E5E06EBF69C55B5C99ED5434 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F82C313DBF7A17A92433C67F3EF5F383 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568A81171C130396E6D15BBFB2119493 /* ImageIO.framework */; };
+		FF7CE4BB3846A6E7DEDADFCD93DA34AB /* Pods-WorldWeatherAPITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A17B18875C231AD5AC6CBB7DDE67AC /* Pods-WorldWeatherAPITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02368CBA0F606287422C8021C66765E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108BFC820531D4197B2979A41DAEDF84;
+			remoteInfo = ModelMapper;
+		};
+		04BB1209919937D9EE51874C63C17972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32D052B04179AB9F26154B2F92C1532;
+			remoteInfo = Keys;
+		};
+		4B9CFE39526EBD5AF1572AF091233769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58CAD74411F3EA5D73A48FFB3DC29A5;
+			remoteInfo = Result;
+		};
+		7537093A3B41844FC3AA7C99A2CD5EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108BFC820531D4197B2979A41DAEDF84;
+			remoteInfo = ModelMapper;
+		};
+		874283E96DF5D4BF210D32150C1B7E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C33D52F7E2D591E77871DBB03E8468;
+			remoteInfo = Moya;
+		};
+		9307E38B9C77204D875423BC6F66FCE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58CAD74411F3EA5D73A48FFB3DC29A5;
+			remoteInfo = Result;
+		};
+		9CD57D9964BC8991ACAE3D26C34CB353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+		C521E54F9FEB3F9ECD851F663D272426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+		DB15991EAC9CEE3DDF2CA669E2CF6382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108BFC820531D4197B2979A41DAEDF84;
+			remoteInfo = ModelMapper;
+		};
+		ED426BFD9201C79EA02E4EE0E83FC252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7BD20AD139625A91C6BEA77EBC727E;
+			remoteInfo = SDWebImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0205D9AF12ABEBF1B61D7085B50DB8BC /* Result-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Result-dummy.m"; sourceTree = "<group>"; };
+		025901E64207915E00464A06E943C0A4 /* Result-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-umbrella.h"; sourceTree = "<group>"; };
+		06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		07B920FAEB71BD99AD7798D926A746C2 /* Keys-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keys-umbrella.h"; sourceTree = "<group>"; };
+		0970E186B71BA9210C9B7A18CC73C9F4 /* Pods-WorldWeatherAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WorldWeatherAPI.modulemap"; sourceTree = "<group>"; };
+		0A11739FB0B46C6144EF6B7F3F2A38E8 /* Pods-MTTForecast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTTForecast-umbrella.h"; sourceTree = "<group>"; };
+		0B6679EE143CD456F17DD9C2199F1B4B /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		0F1A6C25E8FA896AD3A91286B1309ADB /* Moya-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moya-umbrella.h"; sourceTree = "<group>"; };
+		0FAA2E7632464DE4933EE9B19448CFDC /* Pods-WorldWeatherMapping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldWeatherMapping.debug.xcconfig"; sourceTree = "<group>"; };
+		1023752D156F6FC97FEF01880B9F9FA3 /* Pods-WorldWeatherAPITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldWeatherAPITests-frameworks.sh"; sourceTree = "<group>"; };
+		10260276D288F0D2EF8FEE8979EDDCD0 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		108FB47DD0E4A1DA07AE6D89FC8CF3DC /* ModelMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModelMapper-umbrella.h"; sourceTree = "<group>"; };
+		137A557A19A108BAA123C2AFC4AFEEC8 /* Moya.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Moya.modulemap; sourceTree = "<group>"; };
+		14301F3508BDD60288AFF59828513071 /* Pods-MTTForecastTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTTForecastTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		16AD5792793E55226D4485C02B4DB41B /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		18C26CB5882F227311B90F9F1F120BF1 /* Pods-WorldWeatherMapping-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldWeatherMapping-acknowledgements.plist"; sourceTree = "<group>"; };
+		18F86EE3E6083CC028FA73330C9BBE46 /* Pods-MTTForecast-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTTForecast-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19932A580EF34CC462B43ECC414F90BC /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Result/Result.swift; sourceTree = "<group>"; };
+		19B0F3731D0A493ADA5379799573E87C /* Pods-WorldWeatherCore-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldWeatherCore-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A88D6019EC3D628BF438C8B146B51F0 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		1BA13E0173BDFB5982A0DFBB237D6FE4 /* ModelMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModelMapper-dummy.m"; sourceTree = "<group>"; };
+		1C18AEE8F7702769BD3975836A41E696 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		1E53D6A1D3C7CB25C0B9B1F93F6D078D /* Moya.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moya.swift; path = Source/Moya.swift; sourceTree = "<group>"; };
+		1EAA0E9F9C3476DCAE921792016F027B /* Pods-WorldWeatherAPI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldWeatherAPI-frameworks.sh"; sourceTree = "<group>"; };
+		1EBD43209C46BED728F776BD0A120136 /* Transform+Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Transform+Dictionary.swift"; path = "Sources/Transform+Dictionary.swift"; sourceTree = "<group>"; };
+		2296D5A8EF6FF922442BBCE80BF05586 /* Pods-WorldWeatherAPITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WorldWeatherAPITests.modulemap"; sourceTree = "<group>"; };
+		24916C784BC94169FE4E8C7804A95757 /* Pods-WorldWeatherCoreTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldWeatherCoreTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		260F9FFA9A62B34BEF7577EAC2DDD896 /* Pods_WorldWeatherAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldWeatherAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		265D4AD9E5E06EBF69C55B5C99ED5434 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		2787255A9B73138CE3E009498EE4D9E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E559B9D0AA1659DE00AF7C8CFBF364 /* Pods-WorldWeatherAPITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldWeatherAPITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A05F688FB2EC6AF014C8D990579EAC9 /* NetworkActivityPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityPlugin.swift; path = Source/Plugins/NetworkActivityPlugin.swift; sourceTree = "<group>"; };
+		2A3C28619C8E9BDBDE777131DCA033E8 /* Pods-WorldWeatherCoreTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldWeatherCoreTests-dummy.m"; sourceTree = "<group>"; };
+		2CD9E98699F89A849BB62BC7EF9091EE /* Keys-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Keys-dummy.m"; sourceTree = "<group>"; };
+		2F06B0AA6AB8EA0FE2BC2EF4EBF69D06 /* Pods-WorldWeatherAPITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldWeatherAPITests-dummy.m"; sourceTree = "<group>"; };
+		2F6449DF1AD3FF96E94F842FA6C041C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3067C0E4D981072A898A251CC33352B8 /* Pods-WorldWeatherMappingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldWeatherMappingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		324161173B554DE1D9541E47A25C0395 /* Pods-WorldWeatherCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldWeatherCore.release.xcconfig"; sourceTree = "<group>"; };
+		32B034D27F27F2BE41FAEFABC4BA635F /* Pods-WorldWeatherMapping-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldWeatherMapping-resources.sh"; sourceTree = "<group>"; };
+		32EC74BDFE6471DE07CAC8421B545429 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		32F208C52BB751AA6D0A7103BE9BF3C5 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		334A897C3B6097FEFE0BC70843DF335C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34871B5A1BFDB7226DA7B8161633543F /* Pods-WorldWeatherAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldWeatherAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		351C55BCE35F950E99C60D2CA7EA879F /* Pods-WorldWeatherCoreTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldWeatherCoreTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3603A4897249F95FE96BF03937249B76 /* Pods_MTTForecastTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTTForecastTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E2E75A3E73A7E55CCCE6A4115C68FC /* Convertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Convertible.swift; path = Sources/Convertible.swift; sourceTree = "<group>"; };
+		3C184CF84610BEB44DC2B011AD07E195 /* Pods-WorldWeatherCoreTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldWeatherCoreTests-umbrella.h"; sourceTree = "<group>"; };
+		3E85D1EFECF4A236AFBFBFC4A9E42F1F /* Moya.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moya.xcconfig; sourceTree = "<group>"; };
+		3F25CF1C5C1DE37569E189FED9C6C5B4 /* Pods-WorldWeatherCore-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldWeatherCore-resources.sh"; sourceTree = "<group>"; };
+		4061A3E59ADF607057A9BD4B65C718C2 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		40F1842A78EBC1838A768CE29D5DD54B /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		417344932C68865D4615A79ED5F0AE20 /* Pods-MTTForecastTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTTForecastTests-frameworks.sh"; sourceTree = "<group>"; };
+		4467C0E750578BF5FA36EA59FF761115 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47495F40504855594BC1CCB04AA4F642 /* MapperError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapperError.swift; path = Sources/MapperError.swift; sourceTree = "<group>"; };
+		47AAB3345320415F4D4FBFB42B089512 /* ResultType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultType.swift; path = Result/ResultType.swift; sourceTree = "<group>"; };
+		48A049103AE7A668A4BD535C1F9B158A /* Pods-MTTForecastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTTForecastTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A5E9683AE1CA505D7A5345D24A4B7AC /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		4DC5BA47FBACE3B8D0700BBD86ACB91C /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		4E50EBE143DE1DD5016F2134F1F50958 /* Moya-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moya-prefix.pch"; sourceTree = "<group>"; };
+		4E7DCBE55B37C7E3057C363882100D75 /* Keys.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Keys.modulemap; sourceTree = "<group>"; };
+		4F7834BCC8EFD9F11DD8D670C7987850 /* Pods_WorldWeatherCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldWeatherCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F99259D9DD2CF87E16ECDED178DF648 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		4FF0C7362168A0E8CFC2E519C39C891A /* ModelMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ModelMapper.modulemap; sourceTree = "<group>"; };
+		5333B7123BC8A8BAB6660D57631D10DE /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		5645B57C8CDF3BAEDE554EAD24A57D7D /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		568A81171C130396E6D15BBFB2119493 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		56A1F580535F6FBBD326526654596F81 /* Pods-WorldWeatherCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldWeatherCoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		5776FA3F6BBC2573EBA7907F63DB0EB5 /* Pods-MTTForecast-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTTForecast-frameworks.sh"; sourceTree = "<group>"; };
+		58511F2BD792C8316B1FB985E102DBBA /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5917A50877B2067E76D5C8FAA534047C /* Pods-MTTForecast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTTForecast.debug.xcconfig"; sourceTree = "<group>"; };
+		5A0DC438906A8071C79E74616A116B83 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		5CD359876B20F832FC55D140D4B93DDE /* Pods-WorldWeatherAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldWeatherAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		5CF03D9E2817864914C951A65D006F2C /* Pods-WorldWeatherMappingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldWeatherMappingTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D2D9C72BCB6347375A56AA638935517 /* Result.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Result.modulemap; sourceTree = "<group>"; };
+		5E68E6ED7617AE6980A6513D2FD21D40 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBC07F879E5449CCC9F4179B4EDF4C0 /* Pods-WorldWeatherAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldWeatherAPI-umbrella.h"; sourceTree = "<group>"; };
+		5FEE733B3DFBB1B4DF5E1A0A5970CA0E /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		6306014DBAA226D8535FAF70D461661A /* Pods-WorldWeatherMappingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldWeatherMappingTests-dummy.m"; sourceTree = "<group>"; };
+		69993675EDA0FE73E4F3EC8712BA3D98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B9AB98FD85E4ACB8E2AB2B116CE4E35 /* Pods-WorldWeatherMapping-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldWeatherMapping-umbrella.h"; sourceTree = "<group>"; };
+		6EB33BC624FDEF7E325A4AEAC478F06C /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		6FAB52C71C91DCF264E8011846540EF4 /* Pods-WorldWeatherCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldWeatherCore.debug.xcconfig"; sourceTree = "<group>"; };
+		704EEFB0CFB686777D4ED50BADB66380 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		70F9B30BED72DEA92B61A0F57642F55F /* CredentialsPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsPlugin.swift; path = Source/Plugins/CredentialsPlugin.swift; sourceTree = "<group>"; };
+		72C9A3174DAFD694C2606A931CB0BD46 /* Pods-MTTForecastTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTTForecastTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72D17D5F675B3D7907CE8D39964D6672 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E927B1841842E369CA87FF40EB260D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A17B18875C231AD5AC6CBB7DDE67AC /* Pods-WorldWeatherAPITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldWeatherAPITests-umbrella.h"; sourceTree = "<group>"; };
+		76BC3112ACD672636DB18FD5DDC7890F /* Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transform.swift; path = Sources/Transform.swift; sourceTree = "<group>"; };
+		77A24CE69A645DBDA2883324240C40FE /* NetworkLoggerPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkLoggerPlugin.swift; path = Source/Plugins/NetworkLoggerPlugin.swift; sourceTree = "<group>"; };
+		7994BE07E9C3AE0A0400DD780F492E94 /* Pods-MTTForecastTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTTForecastTests-dummy.m"; sourceTree = "<group>"; };
+		79F2EDEB282576A3F404EBBE742BD954 /* Pods-MTTForecast-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTTForecast-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A572603996A8E2DA2508C1C71C64FB3 /* Pods-WorldWeatherAPITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldWeatherAPITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B1D3059145F43C381D32028C79D2665 /* Moya-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Moya-dummy.m"; sourceTree = "<group>"; };
+		7C12B56D099566996DEF236D5F2B8F7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DBC76EA6947CDCC3E8A2E86D412EA1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1F3547D66CF4043F4A2E429535B5B0 /* Pods-WorldWeatherMapping-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldWeatherMapping-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83A3821E04E5330D2FB9CBBA59653EFA /* Pods_WorldWeatherMapping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldWeatherMapping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8601512726F0F93130B6BB43914F4D29 /* Pods-MTTForecast-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTTForecast-resources.sh"; sourceTree = "<group>"; };
+		8845D1B966CA7446CF597EDA7EC15ED7 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		88762ADCC9D4F010A372D9DE9BDC1F54 /* Pods-WorldWeatherMapping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldWeatherMapping.release.xcconfig"; sourceTree = "<group>"; };
+		888C66D74A575DE7AB0BE82E733A54B2 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		896AC2338C88BA224E1BB1AE341763D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B8E829E2CD4C4DDD387FD54EF524016 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		8C37CFC1928E8FCD8DAB165B70FBDDF2 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		8CB4F34FD2622934623BCE7226E0987E /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		8EED696838D7A25A6BB752EDF27AAAAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F688A957845196D98030E972801C243 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		8FB0616660F4956D6A674FEE802FD3B8 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		903494A3C712A6CA3E0E76B361A30C68 /* Pods-WorldWeatherMappingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WorldWeatherMappingTests.modulemap"; sourceTree = "<group>"; };
+		92562EBB0231B59BB21539C4F4C7C3CB /* Pods-WorldWeatherMapping-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldWeatherMapping-dummy.m"; sourceTree = "<group>"; };
+		933615888DB510D52960E9F857A9D37D /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		936505A9439637179EFE9409D16D20EA /* Pods-WorldWeatherCoreTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WorldWeatherCoreTests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94AE460CB526643BF97638863E044C14 /* Pods-WorldWeatherMappingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldWeatherMappingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		993953C0FFAE3331D2BCBF11926089DF /* Pods-WorldWeatherCoreTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldWeatherCoreTests-frameworks.sh"; sourceTree = "<group>"; };
+		9CA258D9CD9E3C69B820070C7F8C6BA2 /* Keys-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Keys-prefix.pch"; sourceTree = "<group>"; };
+		9D67547986BFF977F0126C7545B218FE /* NSURL+Convertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURL+Convertible.swift"; path = "Sources/NSURL+Convertible.swift"; sourceTree = "<group>"; };
+		9DAA6B382037C5C76424DA53B6FA414B /* Pods-WorldWeatherMappingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldWeatherMappingTests-frameworks.sh"; sourceTree = "<group>"; };
+		A2F073F87FB3860DBBC5FB6D38D68731 /* Mapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33E3F073A609A0C391344235AECA336 /* Pods-WorldWeatherMappingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldWeatherMappingTests-resources.sh"; sourceTree = "<group>"; };
+		A39D8ADB2DFF7FD6DB9A21A35E61E322 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		A7A3EAD5F61DF880F6E19EEB91061393 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		A83B284C0481E6F6721F44CD3370978A /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		ABF0136625C1F776B35D8D5268E53CA4 /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = Source/Endpoint.swift; sourceTree = "<group>"; };
+		ACE88A6BF5F9CDF648BB6F7EF852EA2D /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		B0BBB34263E0AE85519EC5DE78258953 /* Pods-WorldWeatherCore-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldWeatherCore-frameworks.sh"; sourceTree = "<group>"; };
+		B74388C56E061DC22AD331DF8C911490 /* Pods-MTTForecast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTTForecast.release.xcconfig"; sourceTree = "<group>"; };
+		B7C997D9934FCE78FF1F06801C971867 /* Moya+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Moya+Alamofire.swift"; path = "Source/Moya+Alamofire.swift"; sourceTree = "<group>"; };
+		B9767764B0A4DDDD7D928B14E29C377D /* Pods-WorldWeatherMapping.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WorldWeatherMapping.modulemap"; sourceTree = "<group>"; };
+		B97F292D3B1D0C098A39F8E2EED937E5 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		BA5DDB32CFAF9975DDEDF3B03456699C /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		BA863347A0BA2E4FDDB8E0E580CB40F9 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		BF59DBA7EBDA2D25F20458A762A1EE18 /* ModelMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModelMapper-prefix.pch"; sourceTree = "<group>"; };
+		C048F07FAE80111E86F124B745A96D48 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		C086846CE1D76CEC5421C3248EFD36B6 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		C0AF80B277891E719A056F10D43E50E2 /* Pods-WorldWeatherCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldWeatherCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2BE972C17FFDB8C23F4C0ACFB104829 /* Pods_WorldWeatherAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldWeatherAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F993C59A2F3371CE408D036E46A977 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		C58FBF2E802319782EB0CBCC5BCA76FE /* WorldweatherapiKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WorldweatherapiKeys.h; sourceTree = "<group>"; };
+		C5C247E053EB0453AC557EB2D25A9E18 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/Image.swift; sourceTree = "<group>"; };
+		C876E9426B18A2F69BF436C828023EB3 /* Pods-WorldWeatherCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldWeatherCore-umbrella.h"; sourceTree = "<group>"; };
+		C90BB324EEF8A024620BFE27AADEA90E /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		CA63143A6CA8CDC2728EB3643B01F917 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9016C0AC44A50F14C149D11B476977 /* Pods-WorldWeatherCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldWeatherCore-dummy.m"; sourceTree = "<group>"; };
+		CB436DC38C718838BD98830957B4CC90 /* Pods_MTTForecast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTTForecast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC05A2DC488A2DEF94118C40891FEF7D /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC436CDB378EFFCAF98E5256F8E3E4A9 /* Pods-WorldWeatherAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldWeatherAPI-dummy.m"; sourceTree = "<group>"; };
+		CCBF6A09922A4AF957AB338839E746A7 /* Pods-WorldWeatherAPI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldWeatherAPI-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDE6200E324251D46DF0E3DB26ED69B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE38EE42F737B6789CA715698EA1AD74 /* Result-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-prefix.pch"; sourceTree = "<group>"; };
+		CF117A088A2203FF9D167E8A7DC2A9D6 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		CF18F2E798FE919549EAAD4D495E7C25 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB3745A30D5BC4220F0BCA62F923443 /* Pods-MTTForecastTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTTForecastTests-resources.sh"; sourceTree = "<group>"; };
+		CFBF1FDB95DDE42F88A4941E5B2A1723 /* Plugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plugin.swift; path = Source/Plugin.swift; sourceTree = "<group>"; };
+		D235FF02D94D53D46A4AFECDCA94B113 /* ModelMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModelMapper.xcconfig; sourceTree = "<group>"; };
+		D25F24E1282BF9771E9538E60D180689 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		D2EC82035A6DD379C38534B66CCDFF03 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57F45DB8C2838CEDCEBFB0F0464560B /* Pods-MTTForecast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTTForecast-dummy.m"; sourceTree = "<group>"; };
+		D666789924EF37E2B2534C838190EBEF /* Mappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mappable.swift; path = Sources/Mappable.swift; sourceTree = "<group>"; };
+		D6806F665AACD8E58D03E68F92E94DC5 /* Pods-WorldWeatherAPI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldWeatherAPI-resources.sh"; sourceTree = "<group>"; };
+		D88B6D0A685A659F3691A13CE3D36E75 /* Result.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Result.xcconfig; sourceTree = "<group>"; };
+		DC43C96275360CAA97ECFE2BFE9DB716 /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = Sources/Mapper.swift; sourceTree = "<group>"; };
+		DD153BFDEECCFC11BBB06E0879EFD16B /* Pods_WorldWeatherMappingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldWeatherMappingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5B9C407229AF8343B45A1A2CB285F6 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		DE9AD5411A4D5B122D821D040D83114D /* WorldweatherapiKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WorldweatherapiKeys.m; sourceTree = "<group>"; };
+		DEA08EAA10D970A84D8EF92792B60FCD /* Pods-MTTForecastTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MTTForecastTests.modulemap"; sourceTree = "<group>"; };
+		E1662990E47D42A5FD1B4A87022479A0 /* Keys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Keys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C83A7882E6B34AE960F0BF9ECD6BAB /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		E57A2C8B1F7BFAB335A885C4AFAD30C8 /* Pods-WorldWeatherAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldWeatherAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		E68FB9B19E9E228D5B03204ABB3FD17D /* Pods-WorldWeatherMappingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldWeatherMappingTests-umbrella.h"; sourceTree = "<group>"; };
+		E896B0D5D85EE09FA83EE96FABC3EBCF /* Pods-MTTForecast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MTTForecast.modulemap"; sourceTree = "<group>"; };
+		E9402E5EA20C7E5BB3444CFC9B14B59E /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		E9B711538F85F94D68DE403947CC06E2 /* Pods-WorldWeatherAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldWeatherAPI.release.xcconfig"; sourceTree = "<group>"; };
+		EA4AEA1F3A7190BB38E8661D3B030C00 /* Pods-MTTForecastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTTForecastTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB02337529E076815DDC8DAA036A302F /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		EC17B91DD33B1F64DC1FBBF790592573 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		ED35FAD5127DA18C04B11991C747E706 /* Pods-WorldWeatherMappingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldWeatherMappingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED52B2582A82D026AE5A041CA5170DE4 /* Pods-WorldWeatherCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WorldWeatherCore.modulemap"; sourceTree = "<group>"; };
+		ED5695DC05FAE830AFD6795B1174B7E5 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		EDDB1BEA616D7F502D295B8A97AC9BA6 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		EEA50AC1E2D10428BC111DE117AF805D /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		EFE521372E60D0EF97B52CE96759E816 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		F0FCBB6A67E938EDD5F164A272551079 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		F1DB0A64296373E1691F5DECE7EEBAB0 /* Pods-WorldWeatherMapping-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldWeatherMapping-frameworks.sh"; sourceTree = "<group>"; };
+		F32F868796D6CFC53713D5AD8FF12A90 /* Keys.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Keys.xcconfig; sourceTree = "<group>"; };
+		F345348132B8859CEA2DA49C11AB6330 /* Pods-WorldWeatherAPI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldWeatherAPI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3743AA41F2F06AE24EB6C1904180D1C /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		F53B4443DA0BAF0A702190A5B3FEEBF6 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		F5E00E2F1AB1051813597C5CB5B36B53 /* Pods-WorldWeatherAPITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldWeatherAPITests-resources.sh"; sourceTree = "<group>"; };
+		F76F52F0E3E56DDF1DC0C964DBBBD963 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		F783E97CACD30645EBD51FB7B1817DB0 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		F7A409A83EB2730A7FA90364B25731A2 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		F94B37B204C3FAE303364D69B190F6F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96AAF9EAEB59AA6771B1674E1822F86 /* Pods-WorldWeatherCore-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldWeatherCore-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FAC41C84CEA0B3246BF04959F96EBB05 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		FC9746E2D2C80153D36008315DCC15BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC6C058C7E594FDAD7DCC4B14E070AA /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		FDAFFD8F484225C5ED2B208ECEA8DB8A /* Pods_WorldWeatherCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldWeatherCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECC5C2186393327F661970F85F3F3D5 /* Pods-WorldWeatherCoreTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldWeatherCoreTests-resources.sh"; sourceTree = "<group>"; };
+		FF40A5C8012121B51B099E260914F700 /* Pods-MTTForecastTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTTForecastTests-umbrella.h"; sourceTree = "<group>"; };
+		FFC0B643FA4000CF5E41B37AFAAB3943 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15A5E7862B3496571A6F8F25A72922B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB2F8BA326DE193632C540941AF6C62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FA9DCB5AD3766A71DED2ABA83ACCA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6677CCD1E13B065D7992AF91B0419C02 /* Alamofire.framework in Frameworks */,
+				72F2F451801BFFC79B7EB71F0137164B /* Foundation.framework in Frameworks */,
+				4307CBAAA98DCDF133C573A823E00126 /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB4C53E6828A2C07F45770F357EE567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79050954AF64157967AD25123723568F /* Foundation.framework in Frameworks */,
+				F82C313DBF7A17A92433C67F3EF5F383 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A1739BB2B4CE49CB395E5A5DB17E4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82996F95E797F1A8B471174C8CAB2B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C70B14B1DEB59C1206526004E105A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFD17D9BDDAD03A7637F77D2B1207B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B357ED6113C7DD6C6B2353E1614BC00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708E837A50D3FE4F89DCB7EC3878A22F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6840C6E64D99B4DD5851E6A202DDF5C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D78A1A1EBB5E57930CED20EAFC619E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71ED473CADE8B5D7A9BF071482C4BA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F671FDD4C65A3D3852B4C734FCEC80A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1556CF5CE30D0EAECB816B675ADF002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858749734F379B8F664692EAA76C6614 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90D93204508A98AED7D259A5D179DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F13B2433CEF0A7EC7A9CB37F65EC2FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A632025D0EE42AADCFC662F0CEBB7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF765B45F9BDF654FA8E25671ADCED83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DF2E6A9CE83FAEB703C0C15C158C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0015C80C0A757ACB3678DA0AB44D77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9541DBC652518896CE7A713499877D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D9BE0B8CCA2A1D1D5CF747EA90C76D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02676C165864F77BE5E8F3911F7A3F14 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C90BB324EEF8A024620BFE27AADEA90E /* NSData+ImageContentType.h */,
+				A7A3EAD5F61DF880F6E19EEB91061393 /* NSData+ImageContentType.m */,
+				F7A409A83EB2730A7FA90364B25731A2 /* SDImageCache.h */,
+				EC17B91DD33B1F64DC1FBBF790592573 /* SDImageCache.m */,
+				F0FCBB6A67E938EDD5F164A272551079 /* SDWebImageCompat.h */,
+				E9402E5EA20C7E5BB3444CFC9B14B59E /* SDWebImageCompat.m */,
+				265D4AD9E5E06EBF69C55B5C99ED5434 /* SDWebImageDecoder.h */,
+				8FB0616660F4956D6A674FEE802FD3B8 /* SDWebImageDecoder.m */,
+				888C66D74A575DE7AB0BE82E733A54B2 /* SDWebImageDownloader.h */,
+				ACE88A6BF5F9CDF648BB6F7EF852EA2D /* SDWebImageDownloader.m */,
+				933615888DB510D52960E9F857A9D37D /* SDWebImageDownloaderOperation.h */,
+				8F688A957845196D98030E972801C243 /* SDWebImageDownloaderOperation.m */,
+				A39D8ADB2DFF7FD6DB9A21A35E61E322 /* SDWebImageManager.h */,
+				4061A3E59ADF607057A9BD4B65C718C2 /* SDWebImageManager.m */,
+				C3F993C59A2F3371CE408D036E46A977 /* SDWebImageOperation.h */,
+				EB02337529E076815DDC8DAA036A302F /* SDWebImagePrefetcher.h */,
+				EEA50AC1E2D10428BC111DE117AF805D /* SDWebImagePrefetcher.m */,
+				F783E97CACD30645EBD51FB7B1817DB0 /* UIButton+WebCache.h */,
+				B97F292D3B1D0C098A39F8E2EED937E5 /* UIButton+WebCache.m */,
+				A83B284C0481E6F6721F44CD3370978A /* UIImage+GIF.h */,
+				5FEE733B3DFBB1B4DF5E1A0A5970CA0E /* UIImage+GIF.m */,
+				F3743AA41F2F06AE24EB6C1904180D1C /* UIImage+MultiFormat.h */,
+				16AD5792793E55226D4485C02B4DB41B /* UIImage+MultiFormat.m */,
+				FFC0B643FA4000CF5E41B37AFAAB3943 /* UIImageView+HighlightedWebCache.h */,
+				4DC5BA47FBACE3B8D0700BBD86ACB91C /* UIImageView+HighlightedWebCache.m */,
+				0B6679EE143CD456F17DD9C2199F1B4B /* UIImageView+WebCache.h */,
+				E4C83A7882E6B34AE960F0BF9ECD6BAB /* UIImageView+WebCache.m */,
+				8C37CFC1928E8FCD8DAB165B70FBDDF2 /* UIView+WebCacheOperation.h */,
+				40F1842A78EBC1838A768CE29D5DD54B /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		030399288BE749194910EF3FC9659BDE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5662F1072B208417AB2E4BA81F2B9BA0 /* Keys */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		18B616334F6ECA22E88FBB2341C61FE5 /* Pods-MTTForecastTests */ = {
+			isa = PBXGroup;
+			children = (
+				74E927B1841842E369CA87FF40EB260D /* Info.plist */,
+				DEA08EAA10D970A84D8EF92792B60FCD /* Pods-MTTForecastTests.modulemap */,
+				72C9A3174DAFD694C2606A931CB0BD46 /* Pods-MTTForecastTests-acknowledgements.markdown */,
+				14301F3508BDD60288AFF59828513071 /* Pods-MTTForecastTests-acknowledgements.plist */,
+				7994BE07E9C3AE0A0400DD780F492E94 /* Pods-MTTForecastTests-dummy.m */,
+				417344932C68865D4615A79ED5F0AE20 /* Pods-MTTForecastTests-frameworks.sh */,
+				CFB3745A30D5BC4220F0BCA62F923443 /* Pods-MTTForecastTests-resources.sh */,
+				FF40A5C8012121B51B099E260914F700 /* Pods-MTTForecastTests-umbrella.h */,
+				EA4AEA1F3A7190BB38E8661D3B030C00 /* Pods-MTTForecastTests.debug.xcconfig */,
+				48A049103AE7A668A4BD535C1F9B158A /* Pods-MTTForecastTests.release.xcconfig */,
+			);
+			name = "Pods-MTTForecastTests";
+			path = "Target Support Files/Pods-MTTForecastTests";
+			sourceTree = "<group>";
+		};
+		194270D045C3E239607B07FCB37F6C6D /* Pods-WorldWeatherCore */ = {
+			isa = PBXGroup;
+			children = (
+				334A897C3B6097FEFE0BC70843DF335C /* Info.plist */,
+				ED52B2582A82D026AE5A041CA5170DE4 /* Pods-WorldWeatherCore.modulemap */,
+				F96AAF9EAEB59AA6771B1674E1822F86 /* Pods-WorldWeatherCore-acknowledgements.markdown */,
+				19B0F3731D0A493ADA5379799573E87C /* Pods-WorldWeatherCore-acknowledgements.plist */,
+				CA9016C0AC44A50F14C149D11B476977 /* Pods-WorldWeatherCore-dummy.m */,
+				B0BBB34263E0AE85519EC5DE78258953 /* Pods-WorldWeatherCore-frameworks.sh */,
+				3F25CF1C5C1DE37569E189FED9C6C5B4 /* Pods-WorldWeatherCore-resources.sh */,
+				C876E9426B18A2F69BF436C828023EB3 /* Pods-WorldWeatherCore-umbrella.h */,
+				6FAB52C71C91DCF264E8011846540EF4 /* Pods-WorldWeatherCore.debug.xcconfig */,
+				324161173B554DE1D9541E47A25C0395 /* Pods-WorldWeatherCore.release.xcconfig */,
+			);
+			name = "Pods-WorldWeatherCore";
+			path = "Target Support Files/Pods-WorldWeatherCore";
+			sourceTree = "<group>";
+		};
+		2991842B83FBC4CEB768FC7D8CD03123 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C12B56D099566996DEF236D5F2B8F7D /* Info.plist */,
+				1C18AEE8F7702769BD3975836A41E696 /* SDWebImage.modulemap */,
+				FCC6C058C7E594FDAD7DCC4B14E070AA /* SDWebImage.xcconfig */,
+				C048F07FAE80111E86F124B745A96D48 /* SDWebImage-dummy.m */,
+				BA5DDB32CFAF9975DDEDF3B03456699C /* SDWebImage-prefix.pch */,
+				EDDB1BEA616D7F502D295B8A97AC9BA6 /* SDWebImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		311E6A2D262D8F2602F9851384108CCB /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				02676C165864F77BE5E8F3911F7A3F14 /* Core */,
+				2991842B83FBC4CEB768FC7D8CD03123 /* Support Files */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		35ED6E4F1E59F6B639BA118642B39B2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA63143A6CA8CDC2728EB3643B01F917 /* Info.plist */,
+				5D2D9C72BCB6347375A56AA638935517 /* Result.modulemap */,
+				D88B6D0A685A659F3691A13CE3D36E75 /* Result.xcconfig */,
+				0205D9AF12ABEBF1B61D7085B50DB8BC /* Result-dummy.m */,
+				CE38EE42F737B6789CA715698EA1AD74 /* Result-prefix.pch */,
+				025901E64207915E00464A06E943C0A4 /* Result-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Result";
+			sourceTree = "<group>";
+		};
+		400CF0AC0D42A0D3B05D1EC36E8802B6 /* Pods-WorldWeatherCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				69993675EDA0FE73E4F3EC8712BA3D98 /* Info.plist */,
+				936505A9439637179EFE9409D16D20EA /* Pods-WorldWeatherCoreTests.modulemap */,
+				24916C784BC94169FE4E8C7804A95757 /* Pods-WorldWeatherCoreTests-acknowledgements.markdown */,
+				351C55BCE35F950E99C60D2CA7EA879F /* Pods-WorldWeatherCoreTests-acknowledgements.plist */,
+				2A3C28619C8E9BDBDE777131DCA033E8 /* Pods-WorldWeatherCoreTests-dummy.m */,
+				993953C0FFAE3331D2BCBF11926089DF /* Pods-WorldWeatherCoreTests-frameworks.sh */,
+				FECC5C2186393327F661970F85F3F3D5 /* Pods-WorldWeatherCoreTests-resources.sh */,
+				3C184CF84610BEB44DC2B011AD07E195 /* Pods-WorldWeatherCoreTests-umbrella.h */,
+				C0AF80B277891E719A056F10D43E50E2 /* Pods-WorldWeatherCoreTests.debug.xcconfig */,
+				56A1F580535F6FBBD326526654596F81 /* Pods-WorldWeatherCoreTests.release.xcconfig */,
+			);
+			name = "Pods-WorldWeatherCoreTests";
+			path = "Target Support Files/Pods-WorldWeatherCoreTests";
+			sourceTree = "<group>";
+		};
+		46DD27894AECE55FA6A56F1AB50A104C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E68E6ED7617AE6980A6513D2FD21D40 /* Alamofire.framework */,
+				CC05A2DC488A2DEF94118C40891FEF7D /* Result.framework */,
+				73FF9A86FF45B0D1948B0D8CECEE17F1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5307EB65FE4A72A342C8960EC8EDA2D1 /* Pods-WorldWeatherMapping */ = {
+			isa = PBXGroup;
+			children = (
+				72D17D5F675B3D7907CE8D39964D6672 /* Info.plist */,
+				B9767764B0A4DDDD7D928B14E29C377D /* Pods-WorldWeatherMapping.modulemap */,
+				7F1F3547D66CF4043F4A2E429535B5B0 /* Pods-WorldWeatherMapping-acknowledgements.markdown */,
+				18C26CB5882F227311B90F9F1F120BF1 /* Pods-WorldWeatherMapping-acknowledgements.plist */,
+				92562EBB0231B59BB21539C4F4C7C3CB /* Pods-WorldWeatherMapping-dummy.m */,
+				F1DB0A64296373E1691F5DECE7EEBAB0 /* Pods-WorldWeatherMapping-frameworks.sh */,
+				32B034D27F27F2BE41FAEFABC4BA635F /* Pods-WorldWeatherMapping-resources.sh */,
+				6B9AB98FD85E4ACB8E2AB2B116CE4E35 /* Pods-WorldWeatherMapping-umbrella.h */,
+				0FAA2E7632464DE4933EE9B19448CFDC /* Pods-WorldWeatherMapping.debug.xcconfig */,
+				88762ADCC9D4F010A372D9DE9BDC1F54 /* Pods-WorldWeatherMapping.release.xcconfig */,
+			);
+			name = "Pods-WorldWeatherMapping";
+			path = "Target Support Files/Pods-WorldWeatherMapping";
+			sourceTree = "<group>";
+		};
+		5662F1072B208417AB2E4BA81F2B9BA0 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				C58FBF2E802319782EB0CBCC5BCA76FE /* WorldweatherapiKeys.h */,
+				DE9AD5411A4D5B122D821D040D83114D /* WorldweatherapiKeys.m */,
+				B9F278AA5D02E72F0B75C9C687BCB680 /* Support Files */,
+			);
+			name = Keys;
+			path = CocoaPodsKeys;
+			sourceTree = "<group>";
+		};
+		62BE99EC3AD7F982850BF2AAE98CA1B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7747F2FEACC5113F0A591BC49A55953B /* Alamofire */,
+				D8BD5EE6FAAF82BC5515336C3A28F0D3 /* ModelMapper */,
+				F9980921FC62F9EF3848C970C6B87C91 /* Moya */,
+				72A0AE45011BDAD2174616D8EFA1777A /* Result */,
+				311E6A2D262D8F2602F9851384108CCB /* SDWebImage */,
+				981F61522F3A1AC907AE7C27FF82B25C /* SwiftGen */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72A0AE45011BDAD2174616D8EFA1777A /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				19932A580EF34CC462B43ECC414F90BC /* Result.swift */,
+				47AAB3345320415F4D4FBFB42B089512 /* ResultType.swift */,
+				35ED6E4F1E59F6B639BA118642B39B2E /* Support Files */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		73FF9A86FF45B0D1948B0D8CECEE17F1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				06961E343EB02A945439A37A33DD6AB0 /* Foundation.framework */,
+				568A81171C130396E6D15BBFB2119493 /* ImageIO.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7747F2FEACC5113F0A591BC49A55953B /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				F53B4443DA0BAF0A702190A5B3FEEBF6 /* Alamofire.swift */,
+				8845D1B966CA7446CF597EDA7EC15ED7 /* Download.swift */,
+				FAC41C84CEA0B3246BF04959F96EBB05 /* Error.swift */,
+				ED5695DC05FAE830AFD6795B1174B7E5 /* Manager.swift */,
+				32EC74BDFE6471DE07CAC8421B545429 /* MultipartFormData.swift */,
+				EFE521372E60D0EF97B52CE96759E816 /* NetworkReachabilityManager.swift */,
+				C086846CE1D76CEC5421C3248EFD36B6 /* Notifications.swift */,
+				4A5E9683AE1CA505D7A5345D24A4B7AC /* ParameterEncoding.swift */,
+				1A88D6019EC3D628BF438C8B146B51F0 /* Request.swift */,
+				8B8E829E2CD4C4DDD387FD54EF524016 /* Response.swift */,
+				BA863347A0BA2E4FDDB8E0E580CB40F9 /* ResponseSerialization.swift */,
+				CF117A088A2203FF9D167E8A7DC2A9D6 /* Result.swift */,
+				F76F52F0E3E56DDF1DC0C964DBBBD963 /* ServerTrustPolicy.swift */,
+				32F208C52BB751AA6D0A7103BE9BF3C5 /* Stream.swift */,
+				6EB33BC624FDEF7E325A4AEAC478F06C /* Timeline.swift */,
+				5645B57C8CDF3BAEDE554EAD24A57D7D /* Upload.swift */,
+				8CB4F34FD2622934623BCE7226E0987E /* Validation.swift */,
+				A410191594DFB178483BAA0F32CC4149 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				030399288BE749194910EF3FC9659BDE /* Development Pods */,
+				46DD27894AECE55FA6A56F1AB50A104C /* Frameworks */,
+				62BE99EC3AD7F982850BF2AAE98CA1B8 /* Pods */,
+				B3D5CFFBDA57D7B779125E6490BB5E14 /* Products */,
+				C420EF48C6E9ED2838C1D68C9095984B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85C7BE94297CFB3B764351AE5EAB7063 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EED696838D7A25A6BB752EDF27AAAAF /* Info.plist */,
+				137A557A19A108BAA123C2AFC4AFEEC8 /* Moya.modulemap */,
+				3E85D1EFECF4A236AFBFBFC4A9E42F1F /* Moya.xcconfig */,
+				7B1D3059145F43C381D32028C79D2665 /* Moya-dummy.m */,
+				4E50EBE143DE1DD5016F2134F1F50958 /* Moya-prefix.pch */,
+				0F1A6C25E8FA896AD3A91286B1309ADB /* Moya-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Moya";
+			sourceTree = "<group>";
+		};
+		8E0A88EC601648CC630426E2EA7DEB46 /* Pods-WorldWeatherAPI */ = {
+			isa = PBXGroup;
+			children = (
+				F94B37B204C3FAE303364D69B190F6F4 /* Info.plist */,
+				0970E186B71BA9210C9B7A18CC73C9F4 /* Pods-WorldWeatherAPI.modulemap */,
+				F345348132B8859CEA2DA49C11AB6330 /* Pods-WorldWeatherAPI-acknowledgements.markdown */,
+				CCBF6A09922A4AF957AB338839E746A7 /* Pods-WorldWeatherAPI-acknowledgements.plist */,
+				CC436CDB378EFFCAF98E5256F8E3E4A9 /* Pods-WorldWeatherAPI-dummy.m */,
+				1EAA0E9F9C3476DCAE921792016F027B /* Pods-WorldWeatherAPI-frameworks.sh */,
+				D6806F665AACD8E58D03E68F92E94DC5 /* Pods-WorldWeatherAPI-resources.sh */,
+				5EBC07F879E5449CCC9F4179B4EDF4C0 /* Pods-WorldWeatherAPI-umbrella.h */,
+				5CD359876B20F832FC55D140D4B93DDE /* Pods-WorldWeatherAPI.debug.xcconfig */,
+				E9B711538F85F94D68DE403947CC06E2 /* Pods-WorldWeatherAPI.release.xcconfig */,
+			);
+			name = "Pods-WorldWeatherAPI";
+			path = "Target Support Files/Pods-WorldWeatherAPI";
+			sourceTree = "<group>";
+		};
+		95CFFC2EFA5DB77EE9CF67A7E6F773E0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				70F9B30BED72DEA92B61A0F57642F55F /* CredentialsPlugin.swift */,
+				ABF0136625C1F776B35D8D5268E53CA4 /* Endpoint.swift */,
+				4F99259D9DD2CF87E16ECDED178DF648 /* Error.swift */,
+				C5C247E053EB0453AC557EB2D25A9E18 /* Image.swift */,
+				1E53D6A1D3C7CB25C0B9B1F93F6D078D /* Moya.swift */,
+				B7C997D9934FCE78FF1F06801C971867 /* Moya+Alamofire.swift */,
+				2A05F688FB2EC6AF014C8D990579EAC9 /* NetworkActivityPlugin.swift */,
+				77A24CE69A645DBDA2883324240C40FE /* NetworkLoggerPlugin.swift */,
+				CFBF1FDB95DDE42F88A4941E5B2A1723 /* Plugin.swift */,
+				DE5B9C407229AF8343B45A1A2CB285F6 /* Response.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		981F61522F3A1AC907AE7C27FF82B25C /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		A410191594DFB178483BAA0F32CC4149 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10260276D288F0D2EF8FEE8979EDDCD0 /* Alamofire.modulemap */,
+				5333B7123BC8A8BAB6660D57631D10DE /* Alamofire.xcconfig */,
+				5A0DC438906A8071C79E74616A116B83 /* Alamofire-dummy.m */,
+				D25F24E1282BF9771E9538E60D180689 /* Alamofire-prefix.pch */,
+				704EEFB0CFB686777D4ED50BADB66380 /* Alamofire-umbrella.h */,
+				2787255A9B73138CE3E009498EE4D9E9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		B3D5CFFBDA57D7B779125E6490BB5E14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4467C0E750578BF5FA36EA59FF761115 /* Alamofire.framework */,
+				E1662990E47D42A5FD1B4A87022479A0 /* Keys.framework */,
+				A2F073F87FB3860DBBC5FB6D38D68731 /* Mapper.framework */,
+				D2EC82035A6DD379C38534B66CCDFF03 /* Moya.framework */,
+				CB436DC38C718838BD98830957B4CC90 /* Pods_MTTForecast.framework */,
+				3603A4897249F95FE96BF03937249B76 /* Pods_MTTForecastTests.framework */,
+				260F9FFA9A62B34BEF7577EAC2DDD896 /* Pods_WorldWeatherAPI.framework */,
+				C2BE972C17FFDB8C23F4C0ACFB104829 /* Pods_WorldWeatherAPITests.framework */,
+				FDAFFD8F484225C5ED2B208ECEA8DB8A /* Pods_WorldWeatherCore.framework */,
+				4F7834BCC8EFD9F11DD8D670C7987850 /* Pods_WorldWeatherCoreTests.framework */,
+				83A3821E04E5330D2FB9CBBA59653EFA /* Pods_WorldWeatherMapping.framework */,
+				DD153BFDEECCFC11BBB06E0879EFD16B /* Pods_WorldWeatherMappingTests.framework */,
+				CF18F2E798FE919549EAAD4D495E7C25 /* Result.framework */,
+				58511F2BD792C8316B1FB985E102DBBA /* SDWebImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B806824F3BD5186F8EA782C5DA33072F /* Pods-WorldWeatherAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F6449DF1AD3FF96E94F842FA6C041C9 /* Info.plist */,
+				2296D5A8EF6FF922442BBCE80BF05586 /* Pods-WorldWeatherAPITests.modulemap */,
+				27E559B9D0AA1659DE00AF7C8CFBF364 /* Pods-WorldWeatherAPITests-acknowledgements.markdown */,
+				7A572603996A8E2DA2508C1C71C64FB3 /* Pods-WorldWeatherAPITests-acknowledgements.plist */,
+				2F06B0AA6AB8EA0FE2BC2EF4EBF69D06 /* Pods-WorldWeatherAPITests-dummy.m */,
+				1023752D156F6FC97FEF01880B9F9FA3 /* Pods-WorldWeatherAPITests-frameworks.sh */,
+				F5E00E2F1AB1051813597C5CB5B36B53 /* Pods-WorldWeatherAPITests-resources.sh */,
+				76A17B18875C231AD5AC6CBB7DDE67AC /* Pods-WorldWeatherAPITests-umbrella.h */,
+				34871B5A1BFDB7226DA7B8161633543F /* Pods-WorldWeatherAPITests.debug.xcconfig */,
+				E57A2C8B1F7BFAB335A885C4AFAD30C8 /* Pods-WorldWeatherAPITests.release.xcconfig */,
+			);
+			name = "Pods-WorldWeatherAPITests";
+			path = "Target Support Files/Pods-WorldWeatherAPITests";
+			sourceTree = "<group>";
+		};
+		B9F278AA5D02E72F0B75C9C687BCB680 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				896AC2338C88BA224E1BB1AE341763D5 /* Info.plist */,
+				4E7DCBE55B37C7E3057C363882100D75 /* Keys.modulemap */,
+				F32F868796D6CFC53713D5AD8FF12A90 /* Keys.xcconfig */,
+				2CD9E98699F89A849BB62BC7EF9091EE /* Keys-dummy.m */,
+				9CA258D9CD9E3C69B820070C7F8C6BA2 /* Keys-prefix.pch */,
+				07B920FAEB71BD99AD7798D926A746C2 /* Keys-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Keys";
+			sourceTree = "<group>";
+		};
+		C420EF48C6E9ED2838C1D68C9095984B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A6FAB599785BF79FBF61BB5F16B12 /* Pods-MTTForecast */,
+				18B616334F6ECA22E88FBB2341C61FE5 /* Pods-MTTForecastTests */,
+				8E0A88EC601648CC630426E2EA7DEB46 /* Pods-WorldWeatherAPI */,
+				B806824F3BD5186F8EA782C5DA33072F /* Pods-WorldWeatherAPITests */,
+				194270D045C3E239607B07FCB37F6C6D /* Pods-WorldWeatherCore */,
+				400CF0AC0D42A0D3B05D1EC36E8802B6 /* Pods-WorldWeatherCoreTests */,
+				5307EB65FE4A72A342C8960EC8EDA2D1 /* Pods-WorldWeatherMapping */,
+				EB2310BD3FD147A267415B0BC2344045 /* Pods-WorldWeatherMappingTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D8BD5EE6FAAF82BC5515336C3A28F0D3 /* ModelMapper */ = {
+			isa = PBXGroup;
+			children = (
+				39E2E75A3E73A7E55CCCE6A4115C68FC /* Convertible.swift */,
+				D666789924EF37E2B2534C838190EBEF /* Mappable.swift */,
+				DC43C96275360CAA97ECFE2BFE9DB716 /* Mapper.swift */,
+				47495F40504855594BC1CCB04AA4F642 /* MapperError.swift */,
+				9D67547986BFF977F0126C7545B218FE /* NSURL+Convertible.swift */,
+				76BC3112ACD672636DB18FD5DDC7890F /* Transform.swift */,
+				1EBD43209C46BED728F776BD0A120136 /* Transform+Dictionary.swift */,
+				FAF25035932139B6D1C28748E38DEE1E /* Support Files */,
+			);
+			path = ModelMapper;
+			sourceTree = "<group>";
+		};
+		EB2310BD3FD147A267415B0BC2344045 /* Pods-WorldWeatherMappingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE6200E324251D46DF0E3DB26ED69B8 /* Info.plist */,
+				903494A3C712A6CA3E0E76B361A30C68 /* Pods-WorldWeatherMappingTests.modulemap */,
+				94AE460CB526643BF97638863E044C14 /* Pods-WorldWeatherMappingTests-acknowledgements.markdown */,
+				ED35FAD5127DA18C04B11991C747E706 /* Pods-WorldWeatherMappingTests-acknowledgements.plist */,
+				6306014DBAA226D8535FAF70D461661A /* Pods-WorldWeatherMappingTests-dummy.m */,
+				9DAA6B382037C5C76424DA53B6FA414B /* Pods-WorldWeatherMappingTests-frameworks.sh */,
+				A33E3F073A609A0C391344235AECA336 /* Pods-WorldWeatherMappingTests-resources.sh */,
+				E68FB9B19E9E228D5B03204ABB3FD17D /* Pods-WorldWeatherMappingTests-umbrella.h */,
+				3067C0E4D981072A898A251CC33352B8 /* Pods-WorldWeatherMappingTests.debug.xcconfig */,
+				5CF03D9E2817864914C951A65D006F2C /* Pods-WorldWeatherMappingTests.release.xcconfig */,
+			);
+			name = "Pods-WorldWeatherMappingTests";
+			path = "Target Support Files/Pods-WorldWeatherMappingTests";
+			sourceTree = "<group>";
+		};
+		F9980921FC62F9EF3848C970C6B87C91 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				95CFFC2EFA5DB77EE9CF67A7E6F773E0 /* Core */,
+				85C7BE94297CFB3B764351AE5EAB7063 /* Support Files */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		FAF25035932139B6D1C28748E38DEE1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC9746E2D2C80153D36008315DCC15BD /* Info.plist */,
+				4FF0C7362168A0E8CFC2E519C39C891A /* ModelMapper.modulemap */,
+				D235FF02D94D53D46A4AFECDCA94B113 /* ModelMapper.xcconfig */,
+				1BA13E0173BDFB5982A0DFBB237D6FE4 /* ModelMapper-dummy.m */,
+				BF59DBA7EBDA2D25F20458A762A1EE18 /* ModelMapper-prefix.pch */,
+				108FB47DD0E4A1DA07AE6D89FC8CF3DC /* ModelMapper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ModelMapper";
+			sourceTree = "<group>";
+		};
+		FB6A6FAB599785BF79FBF61BB5F16B12 /* Pods-MTTForecast */ = {
+			isa = PBXGroup;
+			children = (
+				7DBC76EA6947CDCC3E8A2E86D412EA1A /* Info.plist */,
+				E896B0D5D85EE09FA83EE96FABC3EBCF /* Pods-MTTForecast.modulemap */,
+				18F86EE3E6083CC028FA73330C9BBE46 /* Pods-MTTForecast-acknowledgements.markdown */,
+				79F2EDEB282576A3F404EBBE742BD954 /* Pods-MTTForecast-acknowledgements.plist */,
+				D57F45DB8C2838CEDCEBFB0F0464560B /* Pods-MTTForecast-dummy.m */,
+				5776FA3F6BBC2573EBA7907F63DB0EB5 /* Pods-MTTForecast-frameworks.sh */,
+				8601512726F0F93130B6BB43914F4D29 /* Pods-MTTForecast-resources.sh */,
+				0A11739FB0B46C6144EF6B7F3F2A38E8 /* Pods-MTTForecast-umbrella.h */,
+				5917A50877B2067E76D5C8FAA534047C /* Pods-MTTForecast.debug.xcconfig */,
+				B74388C56E061DC22AD331DF8C911490 /* Pods-MTTForecast.release.xcconfig */,
+			);
+			name = "Pods-MTTForecast";
+			path = "Target Support Files/Pods-MTTForecast";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12A3A9F5828FA271F45D3A23B63B5DE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0968F7DE37E499AC55396FA7DCC560E /* Pods-WorldWeatherAPI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A5CF924BD81B481793F61A0C97B4AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4AF8C5A6037BDF3E3ADFC6A8153165 /* Pods-WorldWeatherMappingTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		429EE829E8626DA8A4D2767F799CB278 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C92F2BEFD4453EBD57E8D137FE357E /* Pods-WorldWeatherCoreTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655561332766CE4BD9C1551FDD107153 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F96E4A3B635A8D04CC181FF9CFA20BE /* ModelMapper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CCCCF2263D3D26A8F655CDE4994CB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CA6DA56B1E68A0D86822129CB727EE /* Moya-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F8C91E398CDDD78E6EF26911472062 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20FB3B47BB4ED2234FBFBE19A8E6345 /* Pods-WorldWeatherMapping-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8984A0A3276DFC660FBC81E6DA2E08C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DB335D303A37ADA057DC0409914F30 /* Keys-umbrella.h in Headers */,
+				94A596C3FCB29418BDF607145A0540FB /* WorldweatherapiKeys.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAAF700236DEC73507D7E139313C6F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B38F90E50D5DEF1BAC364B2B769445B /* Result-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D02A32F0B6524CAD4EC4E3C751CCAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7CE4BB3846A6E7DEDADFCD93DA34AB /* Pods-WorldWeatherAPITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDA5E7F5CBE096780B637C9C35A8528 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A541AB02CDBFD102E4457DFED1E719 /* Pods-WorldWeatherCore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5750A2DEBC6AE17B829D5D37067B2F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC61CA12C3DD40772111BEF8DB673025 /* Pods-MTTForecast-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF3B631BBB965A372347705CA14854 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14B790642DC83EB6D34D08489AC04D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F335EFA32497ADFD79C31FEF9CD618C /* NSData+ImageContentType.h in Headers */,
+				397DC7B1414A87443EEF7755133E0FAF /* SDImageCache.h in Headers */,
+				C0B270B42A9C1EA58B7B7BF1465C79F3 /* SDWebImage-umbrella.h in Headers */,
+				20916C4A48C94CB8EAA5ACEE17B37C9F /* SDWebImageCompat.h in Headers */,
+				F5EE90B4C0429BFB8D25C19B710902B1 /* SDWebImageDecoder.h in Headers */,
+				13839EB5CD8E6781B6A662D4B9719E0D /* SDWebImageDownloader.h in Headers */,
+				05F6E7F473CE6531ED3EFB443177CEA9 /* SDWebImageDownloaderOperation.h in Headers */,
+				9951FDBFBD4184C44B3157E24453AD74 /* SDWebImageManager.h in Headers */,
+				9BED327A490A3B6E73E80073E0229A3F /* SDWebImageOperation.h in Headers */,
+				0EB001BDE9C05F9D7D462992697C52BE /* SDWebImagePrefetcher.h in Headers */,
+				3D1E2A344C446B5C598A321B93359B6C /* UIButton+WebCache.h in Headers */,
+				D1330F2168707441035B08F1E3371F28 /* UIImage+GIF.h in Headers */,
+				D2AA59649B8C32E7FC4BE128AA97C20C /* UIImage+MultiFormat.h in Headers */,
+				3DF3F026E68BA5D5A440C39FFD96175A /* UIImageView+HighlightedWebCache.h in Headers */,
+				A00654B05C39D0CAE923721FB988970C /* UIImageView+WebCache.h in Headers */,
+				ADD3C5510A1D68476F3ADEA60F4EF5B5 /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF54BAA81AA04859A73E6DB9635DC10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B2964BD3A17781600DBE2984E71D3F /* Pods-MTTForecastTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		108BFC820531D4197B2979A41DAEDF84 /* ModelMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA28D5F60E375054F511B8A646E7314E /* Build configuration list for PBXNativeTarget "ModelMapper" */;
+			buildPhases = (
+				D43A7479439BECE3A642C4E2B688417D /* Sources */,
+				6840C6E64D99B4DD5851E6A202DDF5C0 /* Frameworks */,
+				655561332766CE4BD9C1551FDD107153 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModelMapper;
+			productName = ModelMapper;
+			productReference = A2F073F87FB3860DBBC5FB6D38D68731 /* Mapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33D45FABDA869426C82B295C4EA16C38 /* Pods-MTTForecast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A6FDB6E50607DF2F93A3DADFAA8CE3 /* Build configuration list for PBXNativeTarget "Pods-MTTForecast" */;
+			buildPhases = (
+				6E0F91DC79F9DC7197AF1B3C8A80A42C /* Sources */,
+				F9541DBC652518896CE7A713499877D4 /* Frameworks */,
+				D5750A2DEBC6AE17B829D5D37067B2F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F972607C07134AAD0FB7E151440784 /* PBXTargetDependency */,
+				85BD3117BEAC63C91DD12E89B9C83A9C /* PBXTargetDependency */,
+			);
+			name = "Pods-MTTForecast";
+			productName = "Pods-MTTForecast";
+			productReference = CB436DC38C718838BD98830957B4CC90 /* Pods_MTTForecast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A7BD20AD139625A91C6BEA77EBC727E /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD72D9CDECB1800B426E1E9A1663B81 /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				0A0A358C51A1268DB903E0D455DE2470 /* Sources */,
+				1CB4C53E6828A2C07F45770F357EE567 /* Frameworks */,
+				F14B790642DC83EB6D34D08489AC04D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = 58511F2BD792C8316B1FB985E102DBBA /* SDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B8D955EF0D51EDB1895F3F5B9E0DFE1 /* Pods-WorldWeatherAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FC17C6A838562736103F67CBF0615D /* Build configuration list for PBXNativeTarget "Pods-WorldWeatherAPI" */;
+			buildPhases = (
+				EFA52207B118315318BF167FF004873A /* Sources */,
+				D6A632025D0EE42AADCFC662F0CEBB7A /* Frameworks */,
+				12A3A9F5828FA271F45D3A23B63B5DE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D6D69097502F4AEFFC6DE13DA802952 /* PBXTargetDependency */,
+				003DFABBE0BBCF46C99E51441445AE93 /* PBXTargetDependency */,
+				9914CC9AE7FC4699158A1131CA6260B9 /* PBXTargetDependency */,
+				438FE4B0E4FB1A86813C435062FC2BE6 /* PBXTargetDependency */,
+			);
+			name = "Pods-WorldWeatherAPI";
+			productName = "Pods-WorldWeatherAPI";
+			productReference = 260F9FFA9A62B34BEF7577EAC2DDD896 /* Pods_WorldWeatherAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78C33D52F7E2D591E77871DBB03E8468 /* Moya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4DF1FAD9C2FFC6740D28FD45CC6C5E1 /* Build configuration list for PBXNativeTarget "Moya" */;
+			buildPhases = (
+				E0E60989CE0B848CBFBFDE42E2041290 /* Sources */,
+				18FA9DCB5AD3766A71DED2ABA83ACCA2 /* Frameworks */,
+				65CCCCF2263D3D26A8F655CDE4994CB3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C040E01A01914E98A636C3CA4A95B128 /* PBXTargetDependency */,
+				3A285E2269B72E4CE50F82B456306EBC /* PBXTargetDependency */,
+			);
+			name = Moya;
+			productName = Moya;
+			productReference = D2EC82035A6DD379C38534B66CCDFF03 /* Moya.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */,
+				B1729F851F648EC60EE93CDB3C8BAEAD /* Frameworks */,
+				EFDF3B631BBB965A372347705CA14854 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 4467C0E750578BF5FA36EA59FF761115 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C4CA96F931E294F2F5B5209E3CDB12D /* Pods-WorldWeatherCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E3A9B0ADEA556AB528D97DCA5808D73 /* Build configuration list for PBXNativeTarget "Pods-WorldWeatherCoreTests" */;
+			buildPhases = (
+				C0C7A026BBA9E2F41FDC64138673C72F /* Sources */,
+				F7DF2E6A9CE83FAEB703C0C15C158C26 /* Frameworks */,
+				429EE829E8626DA8A4D2767F799CB278 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WorldWeatherCoreTests";
+			productName = "Pods-WorldWeatherCoreTests";
+			productReference = 4F7834BCC8EFD9F11DD8D670C7987850 /* Pods_WorldWeatherCoreTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DD54B5421D87E7FCB121C26249E557C /* Pods-WorldWeatherAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25278CC74672A60AE6FFF29EDD94845 /* Build configuration list for PBXNativeTarget "Pods-WorldWeatherAPITests" */;
+			buildPhases = (
+				523E70B3494B162239B926DC8C95F48E /* Sources */,
+				A1556CF5CE30D0EAECB816B675ADF002 /* Frameworks */,
+				92D02A32F0B6524CAD4EC4E3C751CCAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				577030E4A5915D0FCCBA6A4C398CC923 /* PBXTargetDependency */,
+			);
+			name = "Pods-WorldWeatherAPITests";
+			productName = "Pods-WorldWeatherAPITests";
+			productReference = C2BE972C17FFDB8C23F4C0ACFB104829 /* Pods_WorldWeatherAPITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87D1755345C0B8DDC02970A3E9BFF89C /* Pods-MTTForecastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58880CA21B9659E76A061203C126523 /* Build configuration list for PBXNativeTarget "Pods-MTTForecastTests" */;
+			buildPhases = (
+				5EE19E315409E04C485E4BF15798442E /* Sources */,
+				4B357ED6113C7DD6C6B2353E1614BC00 /* Frameworks */,
+				FFF54BAA81AA04859A73E6DB9635DC10 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MTTForecastTests";
+			productName = "Pods-MTTForecastTests";
+			productReference = 3603A4897249F95FE96BF03937249B76 /* Pods_MTTForecastTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2B9447590B008F1ECDFD73FD54AE17E /* Pods-WorldWeatherMapping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56ADB5158FA1F30E83C9594F5D236B26 /* Build configuration list for PBXNativeTarget "Pods-WorldWeatherMapping" */;
+			buildPhases = (
+				A825B85395B8C42E4B5DD813ABE183EC /* Sources */,
+				C90D93204508A98AED7D259A5D179DB7 /* Frameworks */,
+				75F8C91E398CDDD78E6EF26911472062 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F17230C6C36D13874BCF901A5B4854 /* PBXTargetDependency */,
+			);
+			name = "Pods-WorldWeatherMapping";
+			productName = "Pods-WorldWeatherMapping";
+			productReference = 83A3821E04E5330D2FB9CBBA59653EFA /* Pods_WorldWeatherMapping.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAE617AAFD67B946791C53B4107E42D6 /* Pods-WorldWeatherMappingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 317A4A70C67336A09935C9A6201FA2E8 /* Build configuration list for PBXNativeTarget "Pods-WorldWeatherMappingTests" */;
+			buildPhases = (
+				66063067B6E0F44E6C3EECF8B3D6175A /* Sources */,
+				43C70B14B1DEB59C1206526004E105A2 /* Frameworks */,
+				16A5CF924BD81B481793F61A0C97B4AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WorldWeatherMappingTests";
+			productName = "Pods-WorldWeatherMappingTests";
+			productReference = DD153BFDEECCFC11BBB06E0879EFD16B /* Pods_WorldWeatherMappingTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D58CAD74411F3EA5D73A48FFB3DC29A5 /* Result */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35F017589C7426ABE0E157AB472DFF2 /* Build configuration list for PBXNativeTarget "Result" */;
+			buildPhases = (
+				82AC02BC87E06249B3C8D1D30DC32E97 /* Sources */,
+				15A5E7862B3496571A6F8F25A72922B6 /* Frameworks */,
+				8EAAF700236DEC73507D7E139313C6F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Result;
+			productName = Result;
+			productReference = CF18F2E798FE919549EAAD4D495E7C25 /* Result.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEA38A6E2E740FE3C2E9BF91861F89A5 /* Pods-WorldWeatherCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E1359936275D09CF65E42CCE5B28FD /* Build configuration list for PBXNativeTarget "Pods-WorldWeatherCore" */;
+			buildPhases = (
+				7A48A531025F977B9FBDCB84EE09CB4B /* Sources */,
+				2A1739BB2B4CE49CB395E5A5DB17E4BF /* Frameworks */,
+				CBDA5E7F5CBE096780B637C9C35A8528 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WorldWeatherCore";
+			productName = "Pods-WorldWeatherCore";
+			productReference = FDAFFD8F484225C5ED2B208ECEA8DB8A /* Pods_WorldWeatherCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F32D052B04179AB9F26154B2F92C1532 /* Keys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE671B12876233F2225DB03A6DC3328C /* Build configuration list for PBXNativeTarget "Keys" */;
+			buildPhases = (
+				24EEBBA1E8709D1CA1B445DAA46EB51E /* Sources */,
+				71ED473CADE8B5D7A9BF071482C4BA36 /* Frameworks */,
+				8984A0A3276DFC660FBC81E6DA2E08C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keys;
+			productName = Keys;
+			productReference = E1662990E47D42A5FD1B4A87022479A0 /* Keys.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B3D5CFFBDA57D7B779125E6490BB5E14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
+				F32D052B04179AB9F26154B2F92C1532 /* Keys */,
+				108BFC820531D4197B2979A41DAEDF84 /* ModelMapper */,
+				78C33D52F7E2D591E77871DBB03E8468 /* Moya */,
+				33D45FABDA869426C82B295C4EA16C38 /* Pods-MTTForecast */,
+				87D1755345C0B8DDC02970A3E9BFF89C /* Pods-MTTForecastTests */,
+				6B8D955EF0D51EDB1895F3F5B9E0DFE1 /* Pods-WorldWeatherAPI */,
+				7DD54B5421D87E7FCB121C26249E557C /* Pods-WorldWeatherAPITests */,
+				EEA38A6E2E740FE3C2E9BF91861F89A5 /* Pods-WorldWeatherCore */,
+				7C4CA96F931E294F2F5B5209E3CDB12D /* Pods-WorldWeatherCoreTests */,
+				B2B9447590B008F1ECDFD73FD54AE17E /* Pods-WorldWeatherMapping */,
+				CAE617AAFD67B946791C53B4107E42D6 /* Pods-WorldWeatherMappingTests */,
+				D58CAD74411F3EA5D73A48FFB3DC29A5 /* Result */,
+				5A7BD20AD139625A91C6BEA77EBC727E /* SDWebImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A0A358C51A1268DB903E0D455DE2470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA571860DBAB98B8FBCBB20D52730E5B /* NSData+ImageContentType.m in Sources */,
+				D947CDF7549F7A3EBD860AA36F3C26F8 /* SDImageCache.m in Sources */,
+				978D61581AA66F56AB75F2589805DD21 /* SDWebImage-dummy.m in Sources */,
+				4E88047BDAAB0AF049E5682BD3420D91 /* SDWebImageCompat.m in Sources */,
+				E20A62330F9259EAFCDCBB862C6275CD /* SDWebImageDecoder.m in Sources */,
+				C67B2CB3D71AFA6FE2124A559D943BBF /* SDWebImageDownloader.m in Sources */,
+				63FB8CA3B6B727D362AEEEB1B5A3B74D /* SDWebImageDownloaderOperation.m in Sources */,
+				37530B533B087E3720518BACCE95D0AD /* SDWebImageManager.m in Sources */,
+				2D95A7E4BBC80412EA33DA25662461C7 /* SDWebImagePrefetcher.m in Sources */,
+				1B74B08A3DCE7E5F194DB71F8001CF13 /* UIButton+WebCache.m in Sources */,
+				36E24D66E97CEB8710324B197F926C0F /* UIImage+GIF.m in Sources */,
+				9F2BE3E9B2EFEF16A74801FBB6DD6E8D /* UIImage+MultiFormat.m in Sources */,
+				6A356165B29097800F0D9ADC889927B6 /* UIImageView+HighlightedWebCache.m in Sources */,
+				94CD66A4D98BD7EBD8833B5B213976E7 /* UIImageView+WebCache.m in Sources */,
+				330DA63F0E04B01965604C367B83627D /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24EEBBA1E8709D1CA1B445DAA46EB51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3524CC9E5649ED68D224C31048396EC2 /* Keys-dummy.m in Sources */,
+				1AF50C3D0B4C30258F353C98CD5F8C84 /* WorldweatherapiKeys.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523E70B3494B162239B926DC8C95F48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D8390CE4EBE4F5766CAAAE6CFA29F8 /* Pods-WorldWeatherAPITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE19E315409E04C485E4BF15798442E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521A9DD6144F8FA57A2BC4C83F9E74B3 /* Pods-MTTForecastTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66063067B6E0F44E6C3EECF8B3D6175A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D449C9D95302F9662CECCB5BC8BF3127 /* Pods-WorldWeatherMappingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0F91DC79F9DC7197AF1B3C8A80A42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4854685DCEE1909F2B311C5AB9CB1888 /* Pods-MTTForecast-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A48A531025F977B9FBDCB84EE09CB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342252F0F909A401DB6860F816D48409 /* Pods-WorldWeatherCore-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AC02BC87E06249B3C8D1D30DC32E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8261EC35BE852FECF0B03191A20CE04 /* Result-dummy.m in Sources */,
+				2B852FB261D767CDDFAFE5C896636E7C /* Result.swift in Sources */,
+				6751A6C11AE75944B95C1391DD824049 /* ResultType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CC2C7E06DC188A05DAAEE9CAA555A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */,
+				8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */,
+				5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */,
+				095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */,
+				4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */,
+				C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */,
+				34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */,
+				BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */,
+				C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */,
+				EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */,
+				62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */,
+				3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */,
+				AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */,
+				7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */,
+				AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */,
+				16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */,
+				5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */,
+				2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A825B85395B8C42E4B5DD813ABE183EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2EFAF11BCBB79C721573417ED072ED /* Pods-WorldWeatherMapping-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C7A026BBA9E2F41FDC64138673C72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9982570AF9E3C282E0112443AC9323 /* Pods-WorldWeatherCoreTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43A7479439BECE3A642C4E2B688417D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63C075ACD572E17680DD0738953AD8B /* Convertible.swift in Sources */,
+				2E16E1B739AF6134C0D00B67BC032CF6 /* Mappable.swift in Sources */,
+				E2AA57DDFF118EA0DBBCAE303130E78F /* Mapper.swift in Sources */,
+				0D24B49A102E4F859CE6B38D2EBCF030 /* MapperError.swift in Sources */,
+				DE80ED4D42BC4F394D52C7FC7EDDD92F /* ModelMapper-dummy.m in Sources */,
+				EC13F6C1F4481E145D167CEFC1551493 /* NSURL+Convertible.swift in Sources */,
+				47734AB44DB3B2E8E662F86076A86FA0 /* Transform+Dictionary.swift in Sources */,
+				6CEA127100DCB34BC8FD2531DDE4A015 /* Transform.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E60989CE0B848CBFBFDE42E2041290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA377AD2623449B0CE84BA4093F4BBB1 /* CredentialsPlugin.swift in Sources */,
+				C3A39A1A58017B4D8C38D5A443716D47 /* Endpoint.swift in Sources */,
+				2394EF3E010D188A1C89B95CA20A399A /* Error.swift in Sources */,
+				045511256E05BFCADCE7201461700393 /* Image.swift in Sources */,
+				56C565B5E600D6F014E7902D68CD2A26 /* Moya+Alamofire.swift in Sources */,
+				ACF636AAEF7189C02641E20565349618 /* Moya-dummy.m in Sources */,
+				15E3DA90C2B6749AF11D3E19ADEF3453 /* Moya.swift in Sources */,
+				A5AC2D223A87AAFC4ABA372A2DD902BC /* NetworkActivityPlugin.swift in Sources */,
+				05F386BDC4896411D54D0ABF73472F9C /* NetworkLoggerPlugin.swift in Sources */,
+				D334B1A0D3C9EE115BBA350E257C3375 /* Plugin.swift in Sources */,
+				08C6246305C4385030ADC71963C90569 /* Response.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA52207B118315318BF167FF004873A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF4C57416C45BFB01E28BC575FB0AC7 /* Pods-WorldWeatherAPI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		003DFABBE0BBCF46C99E51441445AE93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Keys;
+			target = F32D052B04179AB9F26154B2F92C1532 /* Keys */;
+			targetProxy = 04BB1209919937D9EE51874C63C17972 /* PBXContainerItemProxy */;
+		};
+		1D6D69097502F4AEFFC6DE13DA802952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = 9CD57D9964BC8991ACAE3D26C34CB353 /* PBXContainerItemProxy */;
+		};
+		3A285E2269B72E4CE50F82B456306EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Result;
+			target = D58CAD74411F3EA5D73A48FFB3DC29A5 /* Result */;
+			targetProxy = 4B9CFE39526EBD5AF1572AF091233769 /* PBXContainerItemProxy */;
+		};
+		438FE4B0E4FB1A86813C435062FC2BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Result;
+			target = D58CAD74411F3EA5D73A48FFB3DC29A5 /* Result */;
+			targetProxy = 9307E38B9C77204D875423BC6F66FCE8 /* PBXContainerItemProxy */;
+		};
+		577030E4A5915D0FCCBA6A4C398CC923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModelMapper;
+			target = 108BFC820531D4197B2979A41DAEDF84 /* ModelMapper */;
+			targetProxy = DB15991EAC9CEE3DDF2CA669E2CF6382 /* PBXContainerItemProxy */;
+		};
+		85BD3117BEAC63C91DD12E89B9C83A9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 5A7BD20AD139625A91C6BEA77EBC727E /* SDWebImage */;
+			targetProxy = ED426BFD9201C79EA02E4EE0E83FC252 /* PBXContainerItemProxy */;
+		};
+		9914CC9AE7FC4699158A1131CA6260B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Moya;
+			target = 78C33D52F7E2D591E77871DBB03E8468 /* Moya */;
+			targetProxy = 874283E96DF5D4BF210D32150C1B7E55 /* PBXContainerItemProxy */;
+		};
+		A5F17230C6C36D13874BCF901A5B4854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModelMapper;
+			target = 108BFC820531D4197B2979A41DAEDF84 /* ModelMapper */;
+			targetProxy = 02368CBA0F606287422C8021C66765E2 /* PBXContainerItemProxy */;
+		};
+		C040E01A01914E98A636C3CA4A95B128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = C521E54F9FEB3F9ECD851F663D272426 /* PBXContainerItemProxy */;
+		};
+		F3F972607C07134AAD0FB7E151440784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModelMapper;
+			target = 108BFC820531D4197B2979A41DAEDF84 /* ModelMapper */;
+			targetProxy = 7537093A3B41844FC3AA7C99A2CD5EA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08ED0C5A9E7E9EF44F80C9AD53F9BDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC6C058C7E594FDAD7DCC4B14E070AA /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F01200BCEB74F43B070027B6FABF089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E85D1EFECF4A236AFBFBFC4A9E42F1F /* Moya.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Moya/Moya-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Moya/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MODULEMAP_FILE = "Target Support Files/Moya/Moya.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Moya;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1DB950409A0CF0D024102833201B8DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5917A50877B2067E76D5C8FAA534047C /* Pods-MTTForecast.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MTTForecast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTTForecast/Pods-MTTForecast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MTTForecast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2974BA32638A597011971256E1D9A1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88B6D0A685A659F3691A13CE3D36E75 /* Result.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Result/Result-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Result/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MODULEMAP_FILE = "Target Support Files/Result/Result.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Result;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2BB77A798BB579E79A336C82225D5264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D235FF02D94D53D46A4AFECDCA94B113 /* ModelMapper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ModelMapper/ModelMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModelMapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MODULEMAP_FILE = "Target Support Files/ModelMapper/ModelMapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Mapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C5B3158F99EEE67B6A4CB3B47F722AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88762ADCC9D4F010A372D9DE9BDC1F54 /* Pods-WorldWeatherMapping.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldWeatherMapping/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldWeatherMapping/Pods-WorldWeatherMapping.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WorldWeatherMapping;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5165FAD8BA5D05E2E053CB53FB752BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA4AEA1F3A7190BB38E8661D3B030C00 /* Pods-MTTForecastTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MTTForecastTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTTForecastTests/Pods-MTTForecastTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MTTForecastTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E4D5DF2373CA0A4B696C1F8D5D95499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E85D1EFECF4A236AFBFBFC4A9E42F1F /* Moya.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Moya/Moya-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Moya/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MODULEMAP_FILE = "Target Support Files/Moya/Moya.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Moya;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		617B13FEF298D2577B98E10F69EA0582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC6C058C7E594FDAD7DCC4B14E070AA /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		676C6169DB7CA794B2F989FF48B7F9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FAA2E7632464DE4933EE9B19448CFDC /* Pods-WorldWeatherMapping.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldWeatherMapping/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldWeatherMapping/Pods-WorldWeatherMapping.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WorldWeatherMapping;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		733A77CEE788EFA495B597B075B38508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3067C0E4D981072A898A251CC33352B8 /* Pods-WorldWeatherMappingTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldWeatherMappingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldWeatherMappingTests/Pods-WorldWeatherMappingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WorldWeatherMappingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77FECC56941776491F2D3B50B7803C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5333B7123BC8A8BAB6660D57631D10DE /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7911F26AF5AA2931F84806716A44CAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF03D9E2817864914C951A65D006F2C /* Pods-WorldWeatherMappingTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldWeatherMappingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldWeatherMappingTests/Pods-WorldWeatherMappingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WorldWeatherMappingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BB89E65BCE8A552BFDFDCA1453836AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34871B5A1BFDB7226DA7B8161633543F /* Pods-WorldWeatherAPITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldWeatherAPITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldWeatherAPITests/Pods-WorldWeatherAPITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WorldWeatherAPITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8484EED88B4A414F376C24FF7483B7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 324161173B554DE1D9541E47A25C0395 /* Pods-WorldWeatherCore.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldWeatherCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldWeatherCore/Pods-WorldWeatherCore.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WorldWeatherCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		875170C2CF96F472D9CAD55AF68DB980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD359876B20F832FC55D140D4B93DDE /* Pods-WorldWeatherAPI.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldWeatherAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldWeatherAPI/Pods-WorldWeatherAPI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WorldWeatherAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B47817E1E7BB5E09973767128C97B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0AF80B277891E719A056F10D43E50E2 /* Pods-WorldWeatherCoreTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldWeatherCoreTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldWeatherCoreTests/Pods-WorldWeatherCoreTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WorldWeatherCoreTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91D0B822D266F822571A2A19CC2115A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B711538F85F94D68DE403947CC06E2 /* Pods-WorldWeatherAPI.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldWeatherAPI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldWeatherAPI/Pods-WorldWeatherAPI.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WorldWeatherAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9486139696D03A54EBA064EABE44A336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88B6D0A685A659F3691A13CE3D36E75 /* Result.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Result/Result-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Result/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MODULEMAP_FILE = "Target Support Files/Result/Result.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Result;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B1FBC2FE336B45675565E12E91208D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F32F868796D6CFC53713D5AD8FF12A90 /* Keys.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Keys/Keys-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Keys/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MODULEMAP_FILE = "Target Support Files/Keys/Keys.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Keys;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0B51BBAB7BCA0746FF4F001CB618396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D235FF02D94D53D46A4AFECDCA94B113 /* ModelMapper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ModelMapper/ModelMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ModelMapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MODULEMAP_FILE = "Target Support Files/ModelMapper/ModelMapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Mapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B53C4FDE4B51A3882C16C4BFA8D0E4B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5333B7123BC8A8BAB6660D57631D10DE /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB96B761A421712436ED04F35BB6C460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A1F580535F6FBBD326526654596F81 /* Pods-WorldWeatherCoreTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldWeatherCoreTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldWeatherCoreTests/Pods-WorldWeatherCoreTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WorldWeatherCoreTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BBD4F33E194B5B8AA6DD8EA3BE13495A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F32F868796D6CFC53713D5AD8FF12A90 /* Keys.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Keys/Keys-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Keys/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MODULEMAP_FILE = "Target Support Files/Keys/Keys.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Keys;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7ECFF66D7B2B4105B2B7080D17D7BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57A2C8B1F7BFAB335A885C4AFAD30C8 /* Pods-WorldWeatherAPITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldWeatherAPITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldWeatherAPITests/Pods-WorldWeatherAPITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WorldWeatherAPITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9C46378B409A8FB174FBCA58A4805DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FAB52C71C91DCF264E8011846540EF4 /* Pods-WorldWeatherCore.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldWeatherCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldWeatherCore/Pods-WorldWeatherCore.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WorldWeatherCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDB409D35D494F8403CB069B77AC64A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B74388C56E061DC22AD331DF8C911490 /* Pods-MTTForecast.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MTTForecast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTTForecast/Pods-MTTForecast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MTTForecast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F330E9A0438208275B7D462B9CAADE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A049103AE7A668A4BD535C1F9B158A /* Pods-MTTForecastTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MTTForecastTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTTForecastTests/Pods-MTTForecastTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MTTForecastTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E3A9B0ADEA556AB528D97DCA5808D73 /* Build configuration list for PBXNativeTarget "Pods-WorldWeatherCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B47817E1E7BB5E09973767128C97B53 /* Debug */,
+				BB96B761A421712436ED04F35BB6C460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD72D9CDECB1800B426E1E9A1663B81 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617B13FEF298D2577B98E10F69EA0582 /* Debug */,
+				08ED0C5A9E7E9EF44F80C9AD53F9BDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		317A4A70C67336A09935C9A6201FA2E8 /* Build configuration list for PBXNativeTarget "Pods-WorldWeatherMappingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733A77CEE788EFA495B597B075B38508 /* Debug */,
+				7911F26AF5AA2931F84806716A44CAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FECC56941776491F2D3B50B7803C8E /* Debug */,
+				B53C4FDE4B51A3882C16C4BFA8D0E4B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FC17C6A838562736103F67CBF0615D /* Build configuration list for PBXNativeTarget "Pods-WorldWeatherAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875170C2CF96F472D9CAD55AF68DB980 /* Debug */,
+				91D0B822D266F822571A2A19CC2115A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A6FDB6E50607DF2F93A3DADFAA8CE3 /* Build configuration list for PBXNativeTarget "Pods-MTTForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB950409A0CF0D024102833201B8DF1 /* Debug */,
+				DDB409D35D494F8403CB069B77AC64A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56ADB5158FA1F30E83C9594F5D236B26 /* Build configuration list for PBXNativeTarget "Pods-WorldWeatherMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676C6169DB7CA794B2F989FF48B7F9E6 /* Debug */,
+				3C5B3158F99EEE67B6A4CB3B47F722AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E1359936275D09CF65E42CCE5B28FD /* Build configuration list for PBXNativeTarget "Pods-WorldWeatherCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C46378B409A8FB174FBCA58A4805DB /* Debug */,
+				8484EED88B4A414F376C24FF7483B7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58880CA21B9659E76A061203C126523 /* Build configuration list for PBXNativeTarget "Pods-MTTForecastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5165FAD8BA5D05E2E053CB53FB752BB1 /* Debug */,
+				F330E9A0438208275B7D462B9CAADE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE671B12876233F2225DB03A6DC3328C /* Build configuration list for PBXNativeTarget "Keys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1FBC2FE336B45675565E12E91208D7 /* Debug */,
+				BBD4F33E194B5B8AA6DD8EA3BE13495A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA28D5F60E375054F511B8A646E7314E /* Build configuration list for PBXNativeTarget "ModelMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B51BBAB7BCA0746FF4F001CB618396 /* Debug */,
+				2BB77A798BB579E79A336C82225D5264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25278CC74672A60AE6FFF29EDD94845 /* Build configuration list for PBXNativeTarget "Pods-WorldWeatherAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB89E65BCE8A552BFDFDCA1453836AE /* Debug */,
+				C7ECFF66D7B2B4105B2B7080D17D7BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35F017589C7426ABE0E157AB472DFF2 /* Build configuration list for PBXNativeTarget "Result" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9486139696D03A54EBA064EABE44A336 /* Debug */,
+				2974BA32638A597011971256E1D9A1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4DF1FAD9C2FFC6740D28FD45CC6C5E1 /* Build configuration list for PBXNativeTarget "Moya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F01200BCEB74F43B070027B6FABF089 /* Debug */,
+				5E4D5DF2373CA0A4B696C1F8D5D95499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
