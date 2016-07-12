@@ -1,0 +1,5 @@
+MTTForecast/.bundle/* linguist-vendored
+MTTForecast/Makefile linguist-vendored
+MTTForecast/Gemfile linguist-vendored
+MTTForecast/Gemfile.* linguist-vendored
+MTTForecast/Podfile linguist-vendored
