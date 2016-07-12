@@ -1,6 +1,0 @@
-framework module Pods_MTTForecast {
-  umbrella header "Pods-MTTForecast-umbrella.h"
-
-  export *
-  module * { export * }
-}

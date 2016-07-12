@@ -1,6 +1,0 @@
-framework module Pods_WorldWeatherMapping {
-  umbrella header "Pods-WorldWeatherMapping-umbrella.h"
-
-  export *
-  module * { export * }
-}
